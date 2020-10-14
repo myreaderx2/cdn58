@@ -1,0 +1,2628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+      <title>Home</title>
+
+  <meta name="description" content="Home">
+
+
+
+  <link rel="preload" href="https://cdn.shopify.com/s/javascripts/currencies.js" as="script">
+<link rel="preload" href="https://cdn.shoplineapp.com/assets/common-b95e716cb7555eb38e89dc758c8215224d86a403710042f4ef3cba34e1249e36.js" as="script">
+<link rel="preload" href="https://cdn.shoplineapp.com/assets/shop-37660890b43e18266f9b232d8aa8fdbc61e8455fe30415a80feba9422965723d.js" as="script">
+<link rel="preload" href="https://cdn.shoplineapp.com/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" type="font/woff2" crossorigin>
+<!-- locale meta -->
+
+<meta name="viewport" content="initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<meta name="google" value="notranslate">
+
+
+  <link rel="shortcut icon" type="image/png" href="https://img.shoplineapp.com/media/image_clips/5dc3a5f314fcda00238c4fc6/original.png?1573103091">
+
+<!-- styles-->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&display=swap' type='text/css' as="style" onload="this.rel='stylesheet'" />
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic&display=swap' type='text/css' as="style" onload="this.rel='stylesheet'">
+<link rel="stylesheet" media="all" href="https://cdn.shoplineapp.com/assets/common-aa674f4614ad4e26606c6b9b2f27c48e137f568634c4c9796e981254b36bb361.css" />
+<link rel="stylesheet" media="all" href="https://cdn.shoplineapp.com/assets/application-528e8c6ae51cbd57edd417540e5b8fca4a7dc83c3ef4eff17a438e19329b6c6a.css" />
+  <link rel="stylesheet" media="screen" href="https://cdn.shoplineapp.com/assets/themes/default-b30f01899477a6520eb9e3f97cc84b05e6bc13fca21c1211eec5955254b91594.css" />
+<style>
+  :root {
+  }
+</style>
+
+<!-- styles-->
+
+
+
+<!-- GLOBAL CONTENT FOR HTML HEAD START-->
+<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&display=swap' type='text/css' rel="preload" as="style" onload="this.rel='stylesheet'" />
+<!-- GLOBAL CONTENT FOR HTML HEAD END -->
+
+
+<!--- Site Ownership Data -->
+<!--- Site Ownership Data End-->
+
+<base href="/">
+
+  <style>
+    
+  </style>
+  <meta name="google-site-verification" content="uUZAj8LGSp3tNOp7i8NjDkidEGra0-jlnbJvqOasu3U" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fTbT1YthAft8g7L2f/SU+uykv6TaRJ5v2uXGCD0ik7j8HrJ31daxSpXiQ9pzRS7HD1abBYAqlOaO3rwl5sxkpQ==" />
+
+
+<!-- Start of Criteo one tag -->
+<!-- End of Criteo one tag -->
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ossE4WC9JeG9AMIc8lZhKHWvgDuXff2ueqkhZo1SQd0j42VDPgqVUFRhMzD+59sVll2kms0T9ycukltLVry2wA==" />
+  
+    <meta property="og:title" content="Home"/>
+    <meta property="og:url" content="https://www.magic-pro.com"/>
+    <link rel="canonical" href="https://www.magic-pro.com" />
+
+
+  <meta property="og:image" content="https://img.shoplineapp.com/media/image_clips/5ddcfecc54f3720b7cbdf89a/original.png?1574764236"/>
+
+  <meta property="og:description" content="Home">
+
+
+
+<script src="https://cdn.shopify.com/s/javascripts/currencies.js" defer></script>
+<script src="https://cdn.shoplineapp.com/assets/common-b95e716cb7555eb38e89dc758c8215224d86a403710042f4ef3cba34e1249e36.js" defer></script>
+<script src="https://cdn.shoplineapp.com/assets/shop-37660890b43e18266f9b232d8aa8fdbc61e8455fe30415a80feba9422965723d.js" defer></script>
+
+<script type="text/javascript">
+  (function(e,t,s,c,n,o,p){e.shoplytics||((p=e.shoplytics=function(){
+p.exec?p.exec.apply(p,arguments):p.q.push(arguments)
+}).v='1.0',p.q=[],(n=t.createElement(s)).async=!0,
+n.src=c,(o=t.getElementsByTagName(s)[0]).parentNode.insertBefore(n,o))
+})(window,document,'script','https://cdn.shoplytics.com/js/shoplytics-tracker/latest/shoplytics-tracker.js');
+shoplytics('init', 'shop', {
+  register: {"session_id":{"public_id":"7d9087288d1642814a634056fb032fff"},"merchant_id":"5db90ee29db3cb0022a18ce0","country":"IE","language":"en"}
+});
+
+// for facebook login redirect
+if (location.hash === '#_=_') {
+  history.replaceState(null, document.title, location.toString().replace(/#_=_$/, ''));
+}
+
+
+window.resizeImages = function(element) {
+  var images = (element || document).getElementsByClassName("sl-lazy-image")
+  var styleRegex = /background\-image:\ *url\(['"]?(https\:\/\/shoplineimg.com\/[^'"\)]*)+['"]?\)/
+
+  for (var i = 0; i < images.length; i++) {
+    var image = images[i]
+    try {
+      var src = image.getAttribute('src') || image.getAttribute('style').match(styleRegex)[1]
+    } catch(e) {
+      continue;
+    }
+    var setBySrc, head, tail, width, height;
+    try {
+      if (!src) { throw 'Unknown source' }
+
+      setBySrc = !!image.getAttribute('src') // Check if it's setting the image url by "src" or "style"
+      var urlParts = src.split("?"); // Fix issue that the size pattern can be in external image url
+      var result = urlParts[0].match(/(.*)\/(\d+)?x?(\d+)?(.*)/) // Extract width and height from url (e.g. 1000x1000), putting the rest into head and tail for repackaging back
+      head = result[1]
+      tail = result[4]
+      width = parseInt(result[2], 10);
+      height = parseInt(result[3], 10);
+
+      if (!!((width || height) && head != '') !== true) { throw 'Invalid image source'; }
+    } catch(e) {
+      if (typeof e !== 'string') { console.error(e) }
+      continue;
+    }
+
+    var segment = parseInt(image.getAttribute('data-resizing-segment') || 200, 10)
+    var scale = window.devicePixelRatio > 1 ? 2 : 1
+
+    // Resize by size of given element or image itself
+    var refElement = image;
+    if (image.getAttribute('data-ref-element')) {
+      var selector = image.getAttribute('data-ref-element');
+      if (selector.indexOf('.') === 0) {
+        refElement = document.getElementsByClassName(image.getAttribute('data-ref-element').slice(1))[0]
+      } else {
+        refElement = document.getElementById(image.getAttribute('data-ref-element'))
+      }
+    }
+    var offsetWidth = refElement.offsetWidth;
+    var offsetHeight = refElement.offsetHeight;
+    var refWidth = image.getAttribute('data-max-width') ? Math.min(parseInt(image.getAttribute('data-max-width')), offsetWidth) : offsetWidth;
+    var refHeight = image.getAttribute('data-max-height') ? Math.min(parseInt(image.getAttribute('data-max-height')), offsetHeight) : offsetHeight;
+
+    // Get desired size based on view, segment and screen scale
+    var resizedWidth = isNaN(width) === false ? Math.ceil(refWidth * scale / segment) * segment : undefined
+    var resizedHeight = isNaN(height) === false ? Math.ceil(refHeight * scale / segment) * segment : undefined
+
+    if (resizedWidth || resizedHeight) {
+      var newSrc = head + '/' + ((resizedWidth || '') + 'x' + (resizedHeight || '')) + (tail || '') + '?';
+      for (var j = 1; j < urlParts.length; j++) { newSrc += urlParts[j]; }
+      if (newSrc !== src) {
+        if (setBySrc) {
+          image.setAttribute('src', newSrc);
+        } else {
+          image.setAttribute('style', image.getAttribute('style').replace(styleRegex, 'background-image:url('+newSrc+')'));
+        }
+      }
+    }
+  }
+}
+
+window.addEventListener('DOMContentLoaded', function() {
+
+  
+app.value('mainConfig', JSON.parse('{\"sessionId\":\"7d9087288d1642814a634056fb032fff\",\"merchantId\":\"5db90ee29db3cb0022a18ce0\",\"appCoreHost\":\"shoplineapp.com\",\"apiBaseUrl\":\"http://shoplineapp.com\",\"eventTrackApi\":\"https://events.shoplytics.com/api\",\"frontCommonsApi\":\"https://front-commons.shoplineapp.com/api\",\"appendToUrl\":\"\",\"env\":\"production\",\"merchantData\":{\"_id\":\"5db90ee29db3cb0022a18ce0\",\"owner_type\":\"User\",\"status\":\"active\",\"shop_status\":\"open\",\"base_country_code\":\"HK\",\"current_plan_key\":\"premium_3year\",\"current_theme_key\":\"default\",\"supported_languages\":[\"en\",\"zh-hant\"],\"invoice_activation\":\"inactive\",\"addon_limit_enabled\":true,\"family_mart_vendors\":[],\"beta_feature_keys\":[],\"domain_remarks\":\"merchant own domain www.magic-pro.com, use HKDNR \\u0026 namecheap - ada 28nov19\",\"facebook_page_id\":\"322976429883\",\"instagram_access_token\":\"\",\"tags\":[\"other\"],\"signup_ref\":{},\"banner_ids\":[],\"name\":\"magic-pro.com\",\"staff_id\":\"5db90ee215069e00086afa06\",\"is_ka\":false,\"owner_id\":\"5db90ee2aac1de04168adacc\",\"custom_redirection_enabled\":true,\"enabled_stock_reminder\":false,\"handle\":\"magicpro\",\"updated_at\":\"2020-10-14T02:36:47.729Z\",\"features\":[],\"instagram_id\":\"\",\"profile_image\":{},\"remarks\":{},\"tags_s\":\"\",\"is_short_message_activated\":false,\"show_sold_out\":true,\"base_currency_code\":\"HKD\",\"mobile_logo_media_id\":\"5ddcfed27001df0027aa5bba\",\"favicon_media_id\":\"5dc3a5f314fcda00238c4fc6\",\"identifier\":\"\",\"ignore_browser_lang\":false,\"subscription_currency\":{\"id\":\"hkd\",\"iso_code\":\"HKD\",\"alternate_symbol\":\"HK$\",\"name\":\"Hong Kong Dollar\",\"symbol_first\":true,\"subunit_to_unit\":100},\"feature_keys_updated_at\":\"2020-09-17T09:47:02.101Z\",\"sycts\":\"2020-05-13T05:04:51.163Z\",\"enforce_otp\":false,\"kyc_status\":\"advanced_account_verified\",\"is_enable_membership_tier_setting\":false,\"sl_payment_billing_descriptor_name\":\"Magic pro\",\"sl_payment_merchant_id\":\"758278839079555072\",\"sl_payment_mcc\":\"mcc5732\",\"family_mart_freeze_vendors\":[],\"is_multiple_domain_redirection\":false,\"brand_home_url\":\"https://www.magic-pro.com\",\"base_currency\":{\"id\":\"hkd\",\"iso_code\":\"HKD\",\"alternate_symbol\":\"HK$\",\"name\":\"Hong Kong Dollar\",\"symbol_first\":true,\"subunit_to_unit\":100},\"mobile_logo_media_url\":\"https://img.shoplineapp.com/media/image_clips/5ddcfed27001df0027aa5bba/original.png?1574764241\",\"shop_default_home_url\":\"https://magicpro.shoplineapp.com\",\"payment_method_count\":3,\"delivery_option_count\":9,\"product_lines\":{},\"credit_balance\":null,\"layout_bundle_tag\":\"5db90ee29db3cb0022a18ce0\",\"rollout_keys\":[\"3_layer_navigation\",\"back_in_stock_notify\",\"bianco_setting\",\"blog_app\",\"bundle_group\",\"bundle_page\",\"customer_tag\",\"doris_bien_setting\",\"email_verification\",\"facebook_notify\",\"fb_comment_app\",\"fb_ssapi\",\"feature_alttag_phase2\",\"form_builder\",\"form_builder_access\",\"hide_theme_bianco\",\"hide_theme_sangria\",\"integrated_sfexpress\",\"marketing_affiliate\",\"marketing_affiliate_p2\",\"promotion_page\",\"sangria_setting\",\"shopline_ads_system\",\"shopline_product_reviews\",\"sl_payment_cc\",\"sl_pixel_feed\",\"structured_data\",\"theme_bianco\",\"theme_doris_bien\",\"theme_sangria\",\"wishlist_app\",\"my_pricing_page_2019\",\"molpay_credit_card\",\"select_all_inventory\",\"apps_store_fb_comment\",\"customer_import_v2\",\"customer_new_report\",\"tw_stripe_subscription\",\"address_format_jp\",\"line_shopping_new_fields\",\"hidden_product_p2\",\"fmt_revision\",\"job_api_user_export\",\"address_format_my\",\"bundle_stackable\",\"UTM_register\",\"promotion_minitem\",\"order_export_v2\",\"assign_products_to_category\",\"breadcrumb\",\"hk_pricing_page_2019\",\"order_promotion_split\",\"address_format_us\",\"fbe_oe\",\"promotion_hour\",\"job_api_products_export\",\"footer_builder_new\",\"address_format_batch2\",\"dashboard_v2\",\"address_format_vn\",\"subscription_currency\",\"fb_sub_button\",\"apps_store\",\"product_info\",\"fmt_c2c_newlabel\",\"shoplytics_behavior\",\"sso_lang_th\",\"auto_credit_percentage\",\"tappay_sdk_v3\",\"ultra_setting\",\"tnc-checkbox\",\"stripe_radar\",\"default_theme_ultrachic\",\"product_index_v2\",\"customer_advanced_filter\",\"auto_credit_recurring\",\"feature_alttag_phase1\",\"manual_order\",\"recaptcha_reset_pw\",\"staff_elasticsearch\",\"new_onboarding_flow\",\"signin_register_revamp\",\"apps_store_blog\",\"variant_image_selector\",\"shoplytics_lite\",\"rejected_bill_reminder\",\"UTM_export\",\"auto_save_sf_plus_address\",\"theme_ultrachic\",\"message_revamp\",\"multi_lang\",\"custom_order_export\",\"delivery_time\",\"fm_order_receipt\",\"bulk_payment_delivery_setting\",\"apps_store_wishlist\",\"tappay_sdk_v2_3_2\",\"facebook_dia\",\"order_status_tag_color\",\"orderemail_new_logic\",\"tw_fm_sms\",\"tappay_3D_secure\",\"shopping_session_enabled\",\"godaddy\",\"h2_tag_phase1\",\"execute_shipment_permission\",\"stripe_3d_secure\",\"paypal_upgrade\",\"broadcast_email_html\",\"image_host_by_region\",\"static_resource_host_by_region\",\"revert_credit_status\",\"new_layout_for_mobile_and_pc\",\"component_h1_tag\",\"cart_addon_limit\",\"tw_pricing_page_2019\",\"page_view_cache\",\"google_dynamic_remarketing_tag\",\"einvoice_newlogic\",\"broadcast_advanced_filters\",\"new_sinopac_3d\",\"staff_service_migration\",\"promotion_blacklist\",\"product_search\",\"broadcast_unsubscribe_email\",\"admin_v2\",\"broadcast_clone\",\"revert_credit_p2\",\"new_return_management\",\"kingsman_v2_setting\",\"image_gallery\",\"cn_pricing_page_2019\",\"ecpay_expirydate\",\"theme_kingsman_v2\",\"job_customer_import\",\"3_layer_category\",\"broadcast_analytics\",\"create_staff_revamp\",\"image_widget_mobile\",\"manual_order_7-11\",\"image_gallery_p2\",\"admin_vietnam_dong\",\"broadcast_facebook_template\",\"admin_image_service\",\"shop_related_recaptcha\",\"sso_lang_vi\",\"facebook_chat_plugin\",\"variation_label_swatches\",\"date_picker_v2\",\"unified_admin\",\"broadcast_line_template\",\"ig_new_api\",\"711_c2b_report_v2\",\"footer_builder\",\"variant_saleprice_cost_weight\",\"taxes_settings\",\"media_gcp_upload\",\"addon_quantity\",\"customer_export_restrict\",\"order_filter_shipped_date\",\"product_feed_info\",\"facebook_ads\",\"tcat_newlabel\",\"shoplytics_report_export\",\"th_pricing_page_2020\",\"vn_pricing_page_2020\",\"shoplytics_to_hd\",\"fbe_v2\",\"bulk_update_new_fields\",\"shoplytics_o2o\",\"stripe_subscription_my_account\",\"disable_old_upgrade_reminder\",\"shoplytics_overview\",\"dashboard_v2_revamp\",\"customer_import_v3\",\"varm_setting\",\"thb_pricing_page_disabled_2020\",\"vnd_pricing_page_disabled_2020\",\"myr_pricing_page_disabled_2020\",\"hkd_pricing_page_disabled_2020\",\"twd_pricing_page_disabled_2020\",\"philia_setting\",\"skya_setting\",\"cart_addon_condition\",\"buy_now_button\",\"email_credit_expire_notify\",\"enhanced_catalog_feed\",\"dusk_setting\",\"hide_theme_dusk\",\"new_signup_flow\",\"sl_pos_payment\",\"basket_pricing_page_twd\",\"basket_pricing_page_hkd\",\"basket_pricing_page_usd\",\"basket_pricing_page_myr\",\"basket_pricing_page_cny\",\"basket_pricing_page_vnd\",\"basket_pricing_page_thb\",\"uc_integration\",\"fb_pixel_v2\",\"fbe_v2_edit\",\"basket_subscription_email\",\"basket_subscription_coupon\",\"shoplytics_order_status\"],\"subscribed_webhook_topics\":[],\"raw_subscription_currency\":\"HKD\",\"origin_brand_home_url\":\"https://www.magic-pro.com\",\"user_setting\":{\"_id\":\"5db90ee38cd01769b45faab0\",\"created_at\":\"2019-10-30T04:17:39.115Z\",\"data\":{},\"item_type\":\"\",\"key\":\"users\",\"name\":null,\"owner_id\":\"5db90ee29db3cb0022a18ce0\",\"owner_type\":\"Merchant\",\"publish_status\":\"published\",\"status\":\"active\",\"updated_at\":\"2019-10-30T04:17:39.115Z\",\"value\":null},\"product_setting\":{\"variation_display\":\"dropdown\"},\"order_setting\":{\"invoice_activation\":\"inactive\",\"short_message_activation\":\"inactive\",\"default_out_of_stock_reminder\":true,\"auto_cancel_expired_orders\":true,\"auto_revert_credit\":false,\"enabled_order_auth_expiry\":true,\"enforce_user_login_on_checkout\":true,\"enabled_abandoned_cart_notification\":true,\"enable_order_split_einvoice_reissue\":false,\"no_duplicate_uniform_invoice\":false,\"hourly_auto_invoice\":false,\"enabled_location_id\":false,\"custom_fields\":null,\"invoice\":{\"tax_id\":\"\"},\"facebook_messenging\":{\"status\":\"active\"},\"status_update_sms\":{\"status\":\"deactivated\"}},\"time_zone\":\"Asia/Hong_Kong\",\"price_range_preview\":false},\"localeData\":{\"loadedLanguage\":{\"name\":\"English\",\"code\":\"en\"},\"supportedLocales\":[{\"name\":\"English\",\"code\":\"en\"},{\"name\":\"繁體中文\",\"code\":\"zh-hant\"}]},\"currentUser\":null,\"themeSettings\":{\"mobile_categories_removed\":false,\"categories_collapsed\":true,\"mobile_categories_collapsed\":true,\"image_fill\":false,\"hide_language_selector\":false,\"is_multicurrency_enabled\":false,\"show_promotions_on_product\":false,\"enabled_quick_cart\":false,\"opens_in_new_tab\":true,\"category_page\":\"24\"},\"features\":{\"plans\":{\"free\":{\"member_price\":false,\"cart_addon\":false,\"google_analytics_ecommerce\":false,\"membership\":false,\"shopline_logo\":true,\"user_credit\":{\"manaul\":false,\"auto\":false},\"variant_image_selector\":false},\"standard\":{\"member_price\":false,\"cart_addon\":false,\"google_analytics_ecommerce\":false,\"membership\":false,\"shopline_logo\":true,\"user_credit\":{\"manaul\":false,\"auto\":false},\"variant_image_selector\":false},\"starter\":{\"member_price\":false,\"cart_addon\":false,\"google_analytics_ecommerce\":false,\"membership\":false,\"shopline_logo\":true,\"user_credit\":{\"manaul\":false,\"auto\":false},\"variant_image_selector\":false},\"pro\":{\"member_price\":false,\"cart_addon\":false,\"google_analytics_ecommerce\":false,\"membership\":false,\"shopline_logo\":false,\"user_credit\":{\"manaul\":false,\"auto\":false},\"variant_image_selector\":false},\"business\":{\"member_price\":false,\"cart_addon\":false,\"google_analytics_ecommerce\":true,\"membership\":true,\"shopline_logo\":false,\"user_credit\":{\"manaul\":false,\"auto\":false},\"facebook_comments_plugin\":true,\"variant_image_selector\":false},\"basic\":{\"member_price\":false,\"cart_addon\":false,\"google_analytics_ecommerce\":false,\"membership\":false,\"shopline_logo\":false,\"user_credit\":{\"manaul\":false,\"auto\":false},\"variant_image_selector\":false},\"basic2018\":{\"member_price\":false,\"cart_addon\":false,\"google_analytics_ecommerce\":false,\"membership\":false,\"shopline_logo\":true,\"user_credit\":{\"manaul\":false,\"auto\":false},\"variant_image_selector\":false},\"sc\":{\"member_price\":false,\"cart_addon\":false,\"google_analytics_ecommerce\":true,\"membership\":false,\"shopline_logo\":true,\"user_credit\":{\"manaul\":false,\"auto\":false},\"facebook_comments_plugin\":true,\"facebook_chat_plugin\":true,\"variant_image_selector\":false},\"advanced\":{\"member_price\":false,\"cart_addon\":false,\"google_analytics_ecommerce\":true,\"membership\":false,\"shopline_logo\":false,\"user_credit\":{\"manaul\":false,\"auto\":false},\"facebook_comments_plugin\":true,\"facebook_chat_plugin\":true,\"variant_image_selector\":false},\"premium\":{\"member_price\":true,\"cart_addon\":true,\"google_analytics_ecommerce\":true,\"membership\":true,\"shopline_logo\":false,\"user_credit\":{\"manaul\":true,\"auto\":true},\"google_dynamic_remarketing\":true,\"facebook_comments_plugin\":true,\"facebook_chat_plugin\":true,\"wish_list\":true,\"facebook_messenger_subscription\":true,\"product_feed\":true,\"express_checkout\":true,\"variant_image_selector\":true},\"enterprise\":{\"member_price\":true,\"cart_addon\":true,\"google_analytics_ecommerce\":true,\"membership\":true,\"shopline_logo\":false,\"user_credit\":{\"manaul\":true,\"auto\":true},\"google_dynamic_remarketing\":true,\"facebook_comments_plugin\":true,\"facebook_chat_plugin\":true,\"wish_list\":true,\"facebook_messenger_subscription\":true,\"product_feed\":true,\"express_checkout\":true,\"variant_image_selector\":true},\"crossborder\":{\"member_price\":true,\"cart_addon\":true,\"google_analytics_ecommerce\":true,\"membership\":true,\"shopline_logo\":false,\"user_credit\":{\"manaul\":true,\"auto\":true},\"google_dynamic_remarketing\":true,\"facebook_comments_plugin\":true,\"facebook_chat_plugin\":true,\"wish_list\":true,\"facebook_messenger_subscription\":true,\"product_feed\":true,\"express_checkout\":true,\"variant_image_selector\":true},\"o2o\":{\"member_price\":true,\"cart_addon\":true,\"google_analytics_ecommerce\":true,\"membership\":true,\"shopline_logo\":false,\"user_credit\":{\"manaul\":true,\"auto\":true},\"google_dynamic_remarketing\":true,\"facebook_comments_plugin\":true,\"facebook_chat_plugin\":true,\"wish_list\":true,\"facebook_messenger_subscription\":true,\"product_feed\":true,\"express_checkout\":true,\"subscription_product\":true,\"variant_image_selector\":true}}},\"requestCountry\":\"IE\",\"trackerEventData\":{},\"currencyData\":{\"supportedCurrencies\":[{\"name\":\"$ HKD\",\"symbol\":\"$\",\"iso_code\":\"hkd\"},{\"name\":\"¥ CNY\",\"symbol\":\"¥\",\"iso_code\":\"cny\"},{\"name\":\"$ TWD\",\"symbol\":\"$\",\"iso_code\":\"twd\"},{\"name\":\"$ USD\",\"symbol\":\"$\",\"iso_code\":\"usd\"},{\"name\":\"$ SGD\",\"symbol\":\"$\",\"iso_code\":\"sgd\"},{\"name\":\"€ EUR\",\"symbol\":\"€\",\"iso_code\":\"eur\"},{\"name\":\"$ AUD\",\"symbol\":\"$\",\"iso_code\":\"aud\"},{\"name\":\"£ GBP\",\"symbol\":\"£\",\"iso_code\":\"gbp\"},{\"name\":\"₱ PHP\",\"symbol\":\"₱\",\"iso_code\":\"php\"},{\"name\":\"RM MYR\",\"symbol\":\"RM\",\"iso_code\":\"myr\"},{\"name\":\"฿ THB\",\"symbol\":\"฿\",\"iso_code\":\"thb\"},{\"name\":\"د.إ AED\",\"symbol\":\"د.إ\",\"iso_code\":\"aed\"},{\"name\":\"¥ JPY\",\"symbol\":\"¥\",\"iso_code\":\"jpy\"},{\"name\":\"K MMK\",\"symbol\":\"K\",\"iso_code\":\"mmk\"},{\"name\":\"$ BND\",\"symbol\":\"$\",\"iso_code\":\"bnd\"},{\"name\":\"₩ KRW\",\"symbol\":\"₩\",\"iso_code\":\"krw\"},{\"name\":\"Rp IDR\",\"symbol\":\"Rp\",\"iso_code\":\"idr\"},{\"name\":\"₫ VND\",\"symbol\":\"₫\",\"iso_code\":\"vnd\"}]},\"previousUrl\":\"\",\"checkoutLandingPath\":\"/cart\",\"webpSupported\":0,\"pageType\":\"home-index\",\"paypalCnClientId\":\"AYVtr8kMzEyRCw725vQM_-hheFyo1FuWeaup4KPSvU1gg44L-NG5e2PNcwGnMo2MLCzGRg4eVHJhuqBP\",\"efoxPayVersion\":\"1.0.57\"}'));
+
+app.value('flash', {
+});
+
+app.value('flash_data', {});
+app.constant('imageServiceEndpoint', 'https\:\/\/shoplineimg.com/')
+app.constant('staticImageHost', 'static.shoplineapp.com/web')
+app.constant('staticResourceHost', 'https://static.shoplineapp.com/')
+app.constant('FEATURES_LIMIT', JSON.parse('{\"product_variation_limit\":100,\"paypal_spb_checkout\":false,\"mini_fast_checkout\":false,\"buynow_checkout\":false,\"blog_category\":false,\"blog_post_page_limit\":false,\"shop_category_filter\":false,\"stripe_card_hk\":false,\"product_limit\":-1,\"image_limit\":100000,\"payment\":{\"stripe_apple_pay\":true,\"stripe_google_pay\":true,\"stripe_fpx\":false,\"alipay\":false,\"hsbc_fps\":false,\"payme\":true,\"sl_payment\":true,\"sl_logistics_ninjavan\":false,\"sl_logistics_ninjavan_MY\":false,\"sl_logistics_yto\":false,\"sl_logistics_kerry_th\":false,\"sl_logistics_fmt_freeze\":false,\"oceanpay\":false,\"stripe_card_hk\":true},\"integrated_delivery\":{\"create\":{\"seven_eleven\":true,\"family_mart\":true,\"tcat\":true,\"integrated_sfexpress\":true},\"edit\":{\"seven_eleven\":true,\"family_mart\":true,\"tcat\":true,\"integrated_sfexpress\":true}},\"coupon_limit\":-1,\"promotion_limit\":-1,\"addon_products_limit\":-1,\"enable_cart_addon_item\":true,\"gifts_limit\":-1,\"page_limit\":-1,\"product_page_limit\":10,\"category_limit\":-1,\"show_footer_brand\":false,\"order_settings\":{\"custom_field_limit\":5,\"order_sms_notify\":true,\"line_ec\":true},\"link_limits\":{\"main\":100,\"footer1\":5,\"footer2\":5},\"event_trackers\":[\"google_analytics\",\"google_analytics_ecommerce\",\"google_adwords\",\"google_tag\",\"facebook_pixel\",\"facebook_audience\",\"facebook_standard_pixel\",\"google_remarketing\",\"bing\",\"yahoo\",\"criteo\",\"custom\"],\"sfexpress_types\":[\"service\",\"store\",\"centre\",\"eflocker\"],\"product_feed\":{\"facebook_catalog\":true,\"criteo\":false},\"staff_limit\":-1,\"membership\":{\"index\":true,\"export\":true,\"import\":true,\"view_user\":true,\"custom_field_limit\":5,\"tiers\":3,\"blacklist\":true},\"analytics\":true,\"design_submenu\":true,\"design\":{\"multicurrency\":true,\"custom_css\":true,\"shop_template_advanced_setting\":true,\"logo_favicon\":true},\"theme_level\":3,\"user_settings\":{\"facebook_login\":true,\"recaptcha_signup\":true},\"reports\":true,\"user_credit\":{\"manual\":true,\"auto\":true},\"blog\":true,\"facebook_comments_plugin\":true,\"wish_list\":true,\"facebook_messenger_subscription\":true,\"abandoned_cart_notification\":true,\"broadcast_center\":false,\"supported_languages_limit\":3,\"available_languages\":[\"en\"],\"variant_image_selector\":true,\"admin_manual_order\":true,\"channel_shopee\":true,\"subscription_product\":false,\"membership_tiers\":3,\"auto_credit\":true,\"cart_addon\":true,\"google_analytics_ecommerce\":true,\"shopline_logo\":false,\"express_checkout\":true,\"facebook_chat_plugin\":true,\"google_dynamic_remarketing\":true,\"image_widget_mobile\":true,\"variant_saleprice_cost_weight\":true,\"currency\":{\"vietnam_dong\":false},\"customer_advanced_filter\":true,\"order_filter_shipped_date\":true,\"marketing_affiliate\":true,\"pos\":\"with_shop\",\"taxes_settings\":true,\"image_gallery_p2\":true,\"broadcast_unsubscribe_email\":true,\"shopcom_push_api\":false,\"shopcom_disable_edit\":false,\"message_center_v2\":false,\"line_shopping_new_fields\":true,\"merchant_webhook_via_event_center\":false,\"product_quantity_update\":false,\"handsup_checkout\":false,\"member_points\":false,\"blog_app\":true,\"fb_comment_app\":true,\"wishlist_app\":true,\"custom_notify\":false,\"email_order_notify\":false,\"shopline_product_reviews\":true,\"email_member_register_notify\":false,\"unified_admin\":true,\"bundle_group\":true,\"bundle_pricing\":true,\"subscription_currency\":true,\"sl_pos\":false,\"email_member_forget_password_notify\":false,\"sl_pos_channel\":false,\"channel_integration\":false,\"shop_crm_express\":false,\"hidden_product_p2\":true,\"product_stock\":false,\"product_info\":true,\"delivery_with_emap\":false,\"facebook_ads\":true,\"admin_custom_domain\":false,\"custom_sms_order_notify\":false,\"line_1on1_chat\":false,\"fb_1on1_chat\":false,\"ninja_van\":false,\"integration_one\":false,\"product_log_v2\":false,\"711_cross_delivery\":false,\"unique_id_feed\":false,\"dashboard_v2\":true,\"fb_shop_now_button\":false,\"studio_livestream\":false,\"line_in_chat_shopping\":false,\"layout_engine\":false,\"order_split\":true,\"google_tag_manager\":true,\"google_analytics_manager\":true,\"yahoo_dot\":true,\"google_remarketing_manager\":true,\"bing_ads\":true,\"facebook_pixel_manager\":true,\"data_layer_info\":false,\"google_ads_manager\":true,\"ig_new_api\":true,\"channel_customer_authentication\":false,\"auto_reply_fb\":false,\"tcat_newlabel\":true,\"fb_quick_signup_link\":false,\"settings_field\":false,\"online_store_design\":true,\"sl_pixel_tracker\":false,\"toggle_mobile_category\":true,\"line_signup\":true,\"vn_pricing_page_2020\":true,\"footer_brand\":false,\"disable_footer_brand\":false,\"product_feed_info\":true,\"google_recaptcha\":true,\"th_pricing_page_2020\":true,\"tw_pricing_page_sc_tab\":false,\"tw_sc_banner\":false,\"stripe_subscription_my_account\":true,\"shoplytics_to_hd\":true,\"fbe_v1\":false,\"fbe_v2\":true,\"message_center_v2_1\":false,\"trial_limit_whitelist\":false,\"shopline_ads_system\":true,\"storefront_return\":false,\"cancel_order_by_customer\":false,\"exclude_product\":false,\"share_cart_link\":false,\"checkout_without_email\":false,\"domain_applicable\":false,\"disable_old_upgrade_reminder\":true,\"sfexpress_eflocker\":false,\"sfexpress_service\":false,\"sfexpress_store\":false,\"sfexpress_centre\":false,\"chatbot_card_template\":false,\"express_cart\":false,\"sl_payment_cc\":true,\"sl_payments_my_fpx\":false,\"chatbot_welcome_template\":false,\"sl_payments_risk\":false,\"sl_pos_discount\":false,\"bulk_update_dynamic_fields\":false,\"paypal_cn\":false,\"buy_now_button\":true,\"revert_credit\":true,\"member_price\":true,\"uc_integration\":true,\"chatbot_card_carousel\":false,\"chatbot_image_widget\":false,\"select_all_customer\":true,\"cart_addon_condition\":true,\"hide_theme_sangria\":true,\"hide_theme_bianco\":true,\"hide_theme_doris_bien\":false,\"theme_sangria\":true,\"theme_bianco\":true,\"theme_doris_bien\":true,\"theme_philia\":false,\"philia_setting\":true,\"hide_theme_philia\":false,\"theme_skya\":false,\"skya_setting\":true,\"hide_theme_skya\":false,\"theme_varm\":false,\"varm_setting\":true,\"hide_theme_varm\":false,\"theme_dusk\":false,\"dusk_setting\":true,\"hide_theme_dusk\":true,\"theme_ferveur\":false,\"ferveur_setting\":false,\"hide_theme_ferveur\":false,\"chatbot_keywords_matching\":false,\"enhanced_catalog_feed\":true,\"yy_hiido_tracker\":false,\"fb_product_set\":false,\"paypal_2_0\":false,\"customer_referral\":false,\"hide_theme_sangria_whitelist\":false,\"hide_theme_bianco_whitelist\":false,\"hide_theme_doris_bien_whitelist\":false,\"hide_theme_philia_whitelist\":false,\"hide_theme_skya_whitelist\":false,\"hide_theme_varm_whitelist\":false,\"hide_theme_dusk_whitelist\":false,\"hide_theme_ferveur_whitelist\":false,\"preset_publish\":true,\"fb_feed_unlimit\":true,\"fb_feed_10\":false,\"chatbot_quick_reply\":false,\"sl_logistics_yto\":false,\"sl_logistics_kerry_th\":false,\"sl_logistics_fmt_freeze\":false,\"fb_gep\":false,\"chatbot_product_carousel\":false,\"two_checkout\":false,\"customer_edit\":false,\"multi_domain_binding\":false,\"facebook_notify\":true,\"zotabox\":false,\"bulk_assign_point\":false,\"multi_lang_zh_hant\":false,\"customer_coupon\":false,\"customer_tag\":true,\"pv_payment\":false,\"dashboard_v2_revamp\":true,\"asiabill_payment\":false,\"chatbot_save_draft\":false,\"category_sorting\":false,\"point_sms\":false,\"fbe_v2_edit\":true,\"fb_pixel_v2\":true,\"email_credit_expire_notify\":true,\"fb_ssapi\":true,\"sl_pos_payment\":true,\"marketing_affiliate_p2\":true,\"revert_credit_p2\":true,\"new_sinopac_3d\":true,\"fmt_revision\":true,\"job_customer_import\":true,\"back_in_stock_notify\":true,\"ecpay_expirydate\":true}'))
+
+
+app.config(function (AnalyticsProvider) {
+  AnalyticsProvider.setAccount('UA-168078449-1');
+  AnalyticsProvider.useECommerce(true, true);
+  AnalyticsProvider.setDomainName('www.magic-pro.com');
+  AnalyticsProvider.setCurrency('HKD');
+  AnalyticsProvider.trackPages(false);
+});
+
+
+app.value('fbPixelSettings', [{"unique_ids":true,"single_variation":false,"trackingCode":"661361037763098","trackingToken":"RUFBazNZY28wWWNrQkFLN1JLR003Y056RERLZ0tBTXI3cDNsa0pld0pYT1dP\naE8yY2FhNFhLeVZ0S2djbXNNeGdmZHZlTldpNVA5dmViSEczcHZSdjJCdlJ0\nTkVSU0NNQVpCSUprWkN6b0dYdU5Xa0dTS1haQTRJU0ZtWkN3NUJpSmpqNWpQ\nR1dEWkJnNmxkNlJ0eHlGNm9rRjVsUFh6dEdtdVdpc2IxMVMxbTFGak9STkVl\na2ZTcWp5NHIxSXZ0VUhDNVl3UmRTWkNNZ1pEWkQ=\n"}]);
+
+app.constant('ANGULAR_LOCALE', {
+  DATETIME_FORMATS: {
+    AMPMS: ["am","pm"],
+    DAY: ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    MONTH: ["January","February","March","April","May","June","July","August","September","October","November","December"],
+    SHORTDAY: ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
+    SHORTMONTH: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+    fullDate: "EEEE, MMMM d, y",
+    longDate: "MMMM d, y",
+    medium: "MMM d, y h:mm:ss a",
+    mediumDate: "MMM d, y",
+    mediumTime: "h:mm:ss a",
+    short: "M/d/yy h:mm a",
+    shortDate: "M/d/yy",
+    shortTime: "h:mm a",
+  },
+  NUMBER_FORMATS: {
+    CURRENCY_SYM: "$",
+    DECIMAL_SEP: ".",
+    GROUP_SEP: ",",
+    PATTERNS: [{"gSize":3,"lgSize":3,"maxFrac":3,"minFrac":0,"minInt":1,"negPre":"-","negSuf":"","posPre":"","posSuf":""},{"gSize":3,"lgSize":3,"maxFrac":2,"minFrac":2,"minInt":1,"negPre":"-¤","negSuf":"","posPre":"¤","posSuf":""}]
+  },
+  id: "en",
+  pluralCat: function(n, opt_precision) {
+    if (['ja'].indexOf('en') >= 0) { return PLURAL_CATEGORY.OTHER; }
+    var i = n | 0;
+    var vf = getVF(n, opt_precision);
+    if (i == 1 && vf.v == 0) {
+      return PLURAL_CATEGORY.ONE;
+    }
+    return PLURAL_CATEGORY.OTHER;
+  }
+});
+  
+      try {
+    var $searchPanelMobile;
+
+      $('.left-panel-button').sidr({
+        name: 'left-panel',
+        side: 'left',
+        body: ".body-wrapper",
+        onOpen: function(){
+          if ($searchPanelMobile.hasClass('click')){
+            $searchPanelMobile.removeClass('click');
+          }
+          $('html, body').css({'overflow': 'hidden'});
+        },
+        onClose: function() {
+          $('html, body').css({'overflow': 'auto'});
+        }
+      });
+      $('.cart-panel-button').sidr({
+        name: 'cart-panel',
+        side: 'left',
+        body: ".body-wrapper",
+        onOpen: function() {
+          angular.element('body').scope().$broadcast('cart.reload');
+          if ($searchPanelMobile.hasClass('click')){
+            $searchPanelMobile.removeClass('click');
+          }
+        }
+      });
+      $('.mobile-language-btn').sidr({
+        name: 'language-panel',
+        side: 'left',
+        body: ".body-wrapper"
+      });
+      $('.mobile-currency-btn').sidr({
+        name: 'currency-panel',
+        side: 'left',
+        body: ".body-wrapper"
+      });
+
+      $( ".body-wrapper" ).on("click touch touchmove", function(e) {
+        if ($(".body-wrapper").hasClass("sidr-open" )) {
+          e.preventDefault();
+          e.stopPropagation();
+          $.sidr('close','left-panel');
+          $.sidr('close','cart-panel');
+          $.sidr('close','currency-panel');
+          $.sidr('close','language-panel');
+          $('html, body').css({'overflow': 'auto'});
+        }
+      });
+
+      $(document).ready(function() {
+        $searchPanelMobile = $jq('.search-panel-mobile');
+        // to show a loading dialog when a huge Product Description Image/Video blocks page content from rednering
+        $("#product-loading").remove();
+
+        $jq(".additional-details-content, .ProductDetail-additional, .ProductDetail-gallery")
+          .find("img[data-src]:not([data-src='']), iframe[data-src]:not([data-src=''])")
+          .each(function() {
+            $(this)
+              .attr('src', $(this).attr('data-src'))
+              .removeAttr('data-src');
+        });
+        if ($jq("#home-carousel").length > 0) {
+          $jq("#home-carousel").owlCarousel({
+            items: 1,
+            singleItem: true,
+            autoPlay: true,
+            stopOnHover: true,
+            lazyLoad : true,
+            onLoadedLazy: function(event) { window.resizeImages(event.target); },
+            autoHeight:true,
+            navigation: true,
+            navigationText: false,
+          });
+        }
+
+        $jq(".owl-carousel").each(function () {
+          var owl = $jq(this);
+          owl.owlCarousel({
+            loop: true,
+            items: 1,
+            margin: 10,
+            nav: false,
+            lazyLoad: true,
+            onLoadedLazy: function(event) {
+              window.resizeImages(event.target);
+            },
+            onInitialized: function() {
+              //owl-stage have transition: 0.25s Time difference
+              setTimeout(function() {
+                owl.prev('.owl-carousel-first-initializing').hide();
+                owl
+                  .removeClass('initializing')
+                  .trigger('refresh.owl.carousel');
+              }, 300);
+            },
+            autoplay: true,
+            autoplayTimeout: (parseFloat($jq(this).data('interval')) || 5) * 1000,
+            autoHeight: true,
+            autoplayHoverPause: false // https://github.com/OwlCarousel2/OwlCarousel2/pull/1777
+          });
+        });
+
+        setTimeout(function() {
+          $jq('.title-container.ellipsis').dotdotdot({
+            wrap: 'letter'
+          });
+
+          var themeKey = 'default';
+          var heightToDot = {
+            varm: 55,
+            philia: 45,
+            skya: 45
+          };
+
+          $jq('.Product-item .Product-info .Product-title').dotdotdot({
+            wrap: 'letter',
+            ellipsis: '...',
+            height: heightToDot[themeKey] || 40
+          });
+        });
+
+        // avoid using FB.XFBML.parse() as it breaks the fb-checkbox rendering, if u encounter resize issue, solve with CSS instead
+      });
+
+      $(document).on('click', '.m-search-button', function(){
+          $searchPanelMobile.toggleClass('click');
+          if ($('.body-wrapper').hasClass('sidr-open')) {
+            $.sidr('close','left-panel');
+            $.sidr('close','cart-panel');
+            $.sidr('close','language-panel');
+            $.sidr('close','currency-panel');
+            $('html, body').css({'overflow': 'auto'});
+          }
+      });
+
+      $(document).on('click', '.search-mask', function() {
+        $searchPanelMobile.toggleClass('click');
+      });
+
+
+      if (window.scriptQueue && window.scriptQueue.length > 0) {
+        for (var i = 0; i < window.scriptQueue.length; i++) {
+          try{
+            window.scriptQueue[i]();
+          }
+          catch (err) {
+            console.error(err);
+          }
+        }
+      }
+
+    } catch (e) {
+      console.error(e);
+    }
+
+
+    angular.bootstrap(document, ['shop_app']);
+});
+
+</script>
+  
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"aa0d8411ae","applicationID":"5470801","transactionName":"ewxaQUoKDQ0DQRhYXVUGG1xWAQQZ","queueTime":0,"applicationTime":340,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"aa0d8411ae",applicationID:"5470801"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+</head>
+
+<body
+  class="home
+         index
+         
+         mobile-revamp-navigation
+         
+         "
+  ng-controller="MainController"
+>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '467428936681900',
+          xfbml      : true,
+          version    : 'v2.7'
+        });
+      };
+    </script>
+    <script
+      async defer
+      src="https://connect.facebook.net/en_US/sdk.js"
+    ></script>
+
+
+
+  <div id="left-panel" style="display:none" class="panel-mobile">
+<div class="side-panel-search hidden-xs">
+  <form ng-controller="ProductsSearchController" ng-submit="search(searchQuery, $event)" action="/products">
+    <button><span class="fa fa-search"></span></button>
+    <input name="query" ng-model="searchQuery" placeholder="Search Products" maxlength="100">
+    <span class="fa fa-times" ng-click="clearSearch()"></span>
+  </form>
+</div>
+
+<div class="clear"></div>
+<!-- <div style="float: left;width: 100%;background-color:#262d36;" ng-show='isUserLoggedIn'>
+  <div class="sidr-photo">
+    <div class="sidr-photo-ring">
+      <img class="img-circle sidr-chat-head" ng-src="{{currentUser.profile_image_url}}"/>
+    </div>
+  </div>
+</div>
+<div style="float: left;width: 100%;background-color:#262d36;" ng-show='!isUserLoggedIn'>
+  <div style="height: 1px;background-color:#232a32;"></div>
+</div> -->
+
+
+<div class="clear"></div>
+<div ng-show='!isUserLoggedIn' class="hello"></div>
+<div class="clear"></div>
+
+<div class="visible-xs">
+  <div class="section-header">
+     Navigation
+  </div>
+  <ul class="categories-mobile-list">
+    <li>
+      <a href="/" ng-non-bindable>Home</a>
+    <li>
+      <a href="/categories/prevention-care" ng-non-bindable>Prevention Care</a>
+    <li>
+      <a href="/categories/power-bank" ng-non-bindable>Power Bank</a>
+    <li>
+      <a href="/categories/5ddf51507a5209613d19b9a1" ng-non-bindable>USB Charger</a>
+    <li>
+      <a href="/categories/car-product" ng-non-bindable>Car Product</a>
+    <li>
+      <a href="/categories/5dc3d7169ae33e003e4a619a" ng-non-bindable>Cable</a>
+    <li>
+      <a href="/categories/5dc3d4cc493cea83c2cb29b4" ng-non-bindable>Travel Partner</a>
+    <li>
+      <a href="/categories/5dc3d6ae03136f60f0691ba9" ng-non-bindable>TV &amp; AV Partner</a>
+    <li>
+      <a href="/categories/homeware" ng-non-bindable>Homeware</a>
+    <li>
+      <a href="/categories/wireless-charger" ng-non-bindable>Wireless Charger</a>
+    <li>
+      <a href="/categories/members-only" ng-non-bindable>Members only （Log in first)</a>
+    <li>
+      <a href="/blog/posts" ng-non-bindable>Blog Posts</a>
+    <li>
+      <a href="/pages/contact-us" ng-non-bindable>Contact Us</a>
+        <button class="btn btn-clear btn-category-collapse pull-right" ng-click="isExpanded['5ddba2aace75920039061f41'] = !isExpanded['5ddba2aace75920039061f41']">
+          <i class="fa fa-angle-down" ng-if="isExpanded['5ddba2aace75920039061f41'] ? !defaultMobileCollapse : defaultMobileCollapse"></i>
+          <i class="fa fa-angle-up" ng-if="!(isExpanded['5ddba2aace75920039061f41'] ? !defaultMobileCollapse : defaultMobileCollapse)"></i>
+        </button>
+      <ul class="inner-list" uib-collapse="isExpanded['5ddba2aace75920039061f41'] ? !defaultMobileCollapse : defaultMobileCollapse">
+          <li>
+            <a href="/pages/about-magic-pro" ng-non-bindable>About Magic-Pro
+            </a>
+          </li>
+          <li>
+            <a href="/forms/5dde2212730c490010709ee2" ng-non-bindable>Product Warranty
+            </a>
+          </li>
+          <li>
+            <a href="/about/terms" ng-non-bindable>Terms and Conditions
+            </a>
+          </li>
+          <li>
+            <a href="/about/policy" ng-non-bindable>Return Policy
+            </a>
+          </li>
+          <li>
+            <a href="/pages/保養條款" ng-non-bindable>Warranty &amp; Maintenance
+            </a>
+          </li>
+          <li>
+            <a href="/pages/privacy-policy" ng-non-bindable>Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a href="/pages/distributors" ng-non-bindable>Distributors
+            </a>
+          </li>
+          <li>
+            <a href="/pages/contact-us" ng-non-bindable>Contact Us
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/drive/folders/0B0ZJBuO5GARvc292ZlVlZjl6N2M" ng-non-bindable>ProHDTV Driver Download
+            </a>
+          </li>
+        </ul>
+    </li>
+  </ul>
+</div>
+
+
+<div class="clear"></div>
+<div ng-hide="defaultMobileCategoriesRemoved">
+  <div class="visible-sm visible-xs">
+    <div class="section-header">
+      Categories
+    </div>
+    <ul class="categories-mobile-list">
+        <li class=" text-secondary-color">
+          <a href="/categories/featured-products" ng-non-bindable>
+            Featured Products
+          </a>
+        </li>
+        <li class=" text-secondary-color">
+          <a href="/categories/members-only" ng-non-bindable>
+            Members only （Log in first)
+          </a>
+        </li>
+        <li class=" text-secondary-color">
+          <a href="/categories/prevention-care" ng-non-bindable>
+            Prevention Care
+          </a>
+        </li>
+        <li class=" text-secondary-color">
+          <a href="/categories/power-bank" ng-non-bindable>
+            Power Bank
+          </a>
+        </li>
+        <li class=" text-secondary-color">
+          <a href="/categories/5ddf51507a5209613d19b9a1" ng-non-bindable>
+            USB Charger
+          </a>
+        </li>
+        <li class=" text-secondary-color">
+          <a href="/categories/car-product" ng-non-bindable>
+            Car Product
+          </a>
+        </li>
+        <li class=" text-secondary-color">
+          <a href="/categories/5dc3d7169ae33e003e4a619a" ng-non-bindable>
+            Cable
+          </a>
+            <!-- has subcategories -->
+            <button class="btn btn-clear btn-category-collapse pull-right" ng-click="isExpanded['5dc3d7169ae33e003e4a619a'] = !isExpanded['5dc3d7169ae33e003e4a619a']">
+              <i class="fa fa-angle-down" ng-if="isExpanded['5dc3d7169ae33e003e4a619a'] ? !defaultCollapse : defaultCollapse"></i>
+              <i class="fa fa-angle-up" ng-if="!(isExpanded['5dc3d7169ae33e003e4a619a'] ? !defaultCollapse : defaultCollapse)"></i>
+            </button>
+            <div class="clear"></div>
+            <ul class="inner-list" style="" uib-collapse="isExpanded['5dc3d7169ae33e003e4a619a'] ? !defaultCollapse : defaultCollapse">
+                 <li class=" text-secondary-color" ng-non-bindable>
+
+                    <a href="/categories/5ddf51ab85b910531baeddb2">
+                      Micro
+                    </a>
+                  </li>
+                 <li class=" text-secondary-color" ng-non-bindable>
+
+                    <a href="/categories/5ddf51d40b44280039fe41b7">
+                      Lightning
+                    </a>
+                  </li>
+                 <li class=" text-secondary-color" ng-non-bindable>
+
+                    <a href="/categories/5ddf51ba72ab5a000fedaab3">
+                      Type-C
+                    </a>
+                  </li>
+            </ul>
+        </li>
+        <li class=" text-secondary-color">
+          <a href="/categories/5dc3d4cc493cea83c2cb29b4" ng-non-bindable>
+            Travel Partner
+          </a>
+        </li>
+        <li class=" text-secondary-color">
+          <a href="/categories/5dc3d6ae03136f60f0691ba9" ng-non-bindable>
+            TV &amp; AV Partner
+          </a>
+        </li>
+        <li class=" text-secondary-color">
+          <a href="/categories/homeware" ng-non-bindable>
+            Homeware
+          </a>
+        </li>
+        <li class=" text-secondary-color">
+          <a href="/categories/wireless-charger" ng-non-bindable>
+            Wireless Charger
+          </a>
+        </li>
+    </ul>
+  </div>
+</div>
+
+  <div class="visible-xs">
+    <div>
+      <div class="section-header">
+        Account
+      </div>
+      <ul>
+        <li><a href="/users/sign_in">Sign in</a></li>
+        <li><a href="/users/sign_up">Sign up</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="other-setting-list visible-xs">
+    <div class="section-header">
+        Other Settings
+    </div>
+    <ul>
+      <li>
+        <div class="menu-button message-button" ng-hide="featureService.hasBetaFeature('hide_message')" ng-click="showMessageForm()" ng-class="{'ie-hack':!mainConfig.themeSettings.is_multicurrency_enabled}">
+          <span class="menu-words"><span class="fa fa-comment"></span>MESSAGE</span>
+        </div>
+      </li>
+      <li>
+        <div class="dropdown mobile-language-btn" ng-class="{'ie-hack':!mainConfig.themeSettings.is_multicurrency_enabled}">
+          <div class="menu-button">
+            <span class="menu-words">
+              <svg class="fa fa-v5-globe">
+                <use xlink:href="#fa-v5-globe"></use>
+              </svg>
+              English</span>
+            </span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--left-panel-->
+
+
+<div id="cart-panel" style="display:none" class="panel-mobile">
+  <!-- cart Start -->
+   <div ng-controller="CartsController">
+    <div class="cart-header">
+      Shopping Cart
+    </div>
+    <!-- cart items start-->
+    <div class="clear"></div>
+    <div ng-cloak ng-show="currentCart.isCartEmpty()">
+      <div style="display:block;padding:15px">
+        Your Shopping Cart is empty.
+      </div>
+    </div>
+    <div ng-cloak ng-hide="currentCart.isCartEmpty()">
+      <div id="" style="" class="cart-items">
+        <div ng-repeat="item in currentCart.getItems()" ng-if="item.type !== 'gift'">
+          <div class="cart-item">
+            <a
+              ng-if="item.product.type !== 'gift'"
+              ng-href="/products/{{item.product_id}}"
+              target="_blank"
+              class="product-link js-product-link"
+            >
+              <img
+                class="cart-item-image"
+                ng-src="{{item.variation.media ? item.variation.media.images.thumb.url : item.product.cover_media.images.thumb.url}}"
+                alt="{{ (item.variation.media ? item.variation.media.alt_translations : item.product.cover_media.alt_translations) | translateModel }}"
+              />
+            </a>
+            <img
+              class="cart-item-image"
+              ng-if="item.product.type === 'gift'"
+              ng-src="{{
+                item.variation.media
+                  ? item.variation.media.images.thumb.url
+                  : item.product.cover_media.images.thumb.url
+                }}"
+              alt="{{
+                (item.variation.media
+                  ? item.variation.media.alt_translations
+                  : item.product.cover_media.alt_translations) | translateModel
+                }}"
+            />
+            <div class="cart-item-content" style="float:left;width:130px;">
+              <div
+                ng-show="item.applied_promotion.discount_type === 'bundle_pricing'"
+                class="label promotion-label label-default"
+              >
+                {{ 'product.bundled_products.label' | translate }}
+              </div>
+              <div
+                ng-show="item.applied_promotion.discount_type === 'bundle_group'"
+                class="label promotion-label label-default"
+              >
+                {{ 'product.bundle_group_products.label' | translate }}
+              </div>
+              <div
+                ng-show="item.applied_promotion.discount_type === 'member_point_redeem_gift'"
+                class="label promotion-label label-default"
+              >
+                {{ 'product.gift.label' | translate }}
+              </div>
+              <div ng-show="item.type == 'addon_product'" class="label promotion-label label-default">{{ 'product.addon_products.label' | translate }}</div>
+              <div class="title">{{item.product.title_translations|translateModel}}</div>
+              <div ng-repeat="field in item.variation.fields">
+                <div class="variation">{{ field.name_translations | translateModel }}</div>
+              </div>
+              <div class="variation" ng-hide="item.variation.fields">{{item.variation.name}}</div>
+              <div class="price-details">
+                {{item.quantity}}<span style=";margin:0 3px;">x</span>
+                <span ng-bind-html="currentCart.getItemPrice(item).label | changeCurrency"></span>
+                <span ng-if="item.applied_promotion.discount_type === 'member_point_redeem_gift'">
+                  {{ item.unit_point }} Point
+                </span>
+              </div>
+            </div><!--cart-item-content-->
+              <div class="remove"><a ng-click="removeItemFromCart(item._id,$event)" >Remove</a></div>
+            <div class="clear"></div>
+          </div><!-- cart-item-->
+
+          <div class="addon-cart-item cart-item" ng-repeat="addonItem in item.addon_items" ng-init="addonItemPrice = addonItem.price ? (addonItem.quantity * addonItem.price.cents / mainConfig.merchantData.base_currency.subunit_to_unit) : ''">
+            <span class="product-link js-product-link">
+              <img
+                class="cart-item-image"
+                ng-src="{{addonItem.product.cover_media.images.thumb.url}}"
+                alt="{{ addonItem.product.cover_media.alt_translations | translateModel }}"
+              />
+            </span>
+            <div class="cart-item-content" style="float:left;width:130px;">
+              <div class="label promotion-label label-default">{{ 'product.addon_products.label' | translate }}</div>
+              <div class="title">{{addonItem.product.title_translations|translateModel}}</div>
+              <div class="price-details">
+                {{addonItem.quantity}}<span style=";margin:0 3px;">x</span>
+                <span ng-show="addonItem.price.label" ng-bind-html="addonItem.price.label | changeCurrency"></span>
+                <span ng-hide="addonItem.price.label">{{ mainConfig.merchantData.base_currency.alternate_symbol + "0" }}</span>
+              </div>
+            </div><!--cart-item-content-->
+              <div class="remove"><a ng-click="removeItemFromCart(addonItem._id,$event)" >Remove</a></div>
+            <div class="clear"></div>
+          </div>
+
+        </div>
+        <div class="clear"></div>
+      </div> <!--cart-items-->
+      <!-- cart items end -->
+      <div class="clear"></div>
+      <div class="cart-chkt-btn-cont">
+        <button id="btn-checkout" class="cart-chkt-btn ladda-button" data-style="slide-down" ladda="checkoutButtonLoading" ng-click="onCheckoutClicked($event)">
+          Checkout
+        </button>
+      </div>
+    </div>
+  </div>
+</div> <!--cart-panel-->
+
+<!-- cart End -->
+<div id="language-panel" style="display:none" class="panel-mobile">
+  <!-- language Start -->
+   <div class="ng-scope">
+    <div class="section-header language-header">
+      <a class="left-panel-button menu-button ie-hack " href="#left-panel">
+        <span class="fa fa-chevron-left"></span>
+      </a>
+      LANGUAGE
+    </div>
+  </div>
+  <ul>
+      <li ng-click="changeLanguage('en')"><span>English</span></li>
+      <li ng-click="changeLanguage('zh-hant')"><span>繁體中文</span></li>
+  </ul>
+</div>
+<!-- language End -->
+
+
+<div id="currency-panel" style="display:none" class="panel-mobile">
+  <!-- currency Start -->
+   <div class="ng-scope">
+    <div class="section-header currency-header">
+      <a class="left-panel-button menu-button ie-hack " href="#left-panel">
+        <span class="fa fa-chevron-left"></span>
+      </a>
+      Currency
+    </div>
+  </div>
+  <ul>
+    <li ng-click="changeCurrency('hkd')"><span>$ HKD</span></li>
+    <li ng-click="changeCurrency('cny')"><span>¥ CNY</span></li>
+    <li ng-click="changeCurrency('twd')"><span>$ TWD</span></li>
+    <li ng-click="changeCurrency('usd')"><span>$ USD</span></li>
+    <li ng-click="changeCurrency('sgd')"><span>$ SGD</span></li>
+    <li ng-click="changeCurrency('eur')"><span>€ EUR</span></li>
+    <li ng-click="changeCurrency('aud')"><span>$ AUD</span></li>
+    <li ng-click="changeCurrency('gbp')"><span>£ GBP</span></li>
+    <li ng-click="changeCurrency('php')"><span>₱ PHP</span></li>
+    <li ng-click="changeCurrency('myr')"><span>RM MYR</span></li>
+    <li ng-click="changeCurrency('thb')"><span>฿ THB</span></li>
+    <li ng-click="changeCurrency('aed')"><span>د.إ AED</span></li>
+    <li ng-click="changeCurrency('jpy')"><span>¥ JPY</span></li>
+    <li ng-click="changeCurrency('mmk')"><span>K MMK</span></li>
+    <li ng-click="changeCurrency('bnd')"><span>$ BND</span></li>
+    <li ng-click="changeCurrency('krw')"><span>₩ KRW</span></li>
+    <li ng-click="changeCurrency('idr')"><span>Rp IDR</span></li>
+    <li ng-click="changeCurrency('vnd')"><span>₫ VND</span></li>
+  </ul>
+</div>
+
+<!-- currency End -->
+
+  
+<div class="side-panel-search search-panel-mobile
+            "
+>
+  <form ng-controller="ProductsSearchController" ng-submit="search(searchQuery, $event); $event.preventDefault();" action="{{'#/search/'}}">
+    <button class="mobile-search-btn"><span class="fa fa-search"></span></button>
+    <input type="search" name="searchQuery" ng-model="searchQuery" placeholder="Search Products">
+    <span class="fa fa-times" ng-class="{ 'has-search-query': searchQuery }" ng-show="searchQuery.length > 0" ng-click="clearSearch()"></span>
+  </form>
+  <div class="search-mask"></div>
+</div>
+
+<div id="fixed-menu-container" class="mobile-revamp-navigation ">
+  
+  <div class="fixed-menu-wrapper">
+
+    <a class="left-panel-button menu-button visible-xs visible-sm
+              ie-hack
+              "
+      href="#left-panel"
+    >
+      <span class="fa fa-bars"> </span><span class="menu-words" style="padding-left:6px;">MENU</span>
+    </a>
+
+    <a class="visible-xs m-search-button menu-button ie-hack ">
+      <span class="fa fa-search"></span>
+    </a>
+
+    <!-- mobile logo -->
+    <div class="mobile-logo">
+      <a href="https://www.magic-pro.com/" class="sl-lazy-image" style="background-image: url('https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5ddcfed27001df0027aa5bba/x40.webp?source_format=png')"></a>
+    </div>
+
+      <a href="/users/sign_in" class="menu-button signin-signup-button mobile-revamp-navigation">
+        <span class="fa fa-user"> </span><span class="menu-words">LOG IN</span>
+      </a>
+
+    <a class="cart-panel-button menu-button ie-hack" id="" href="#cart-panel">
+      <span class="fa fa-shopping-cart"> </span><span class="menu-words">CART</span>
+      <span class="cart-count" ng-show="currentCart.getItemCount()>0" ng-cloak>
+        <span class="hidden-xs">(</span>{{currentCart.getItemCount()}}<span class="hidden-xs">)</span>
+      </span>
+    </a>
+
+      <a class="menu-button
+        message-button
+        hidden-xs
+        ie-hack"
+        ng-click="showMessageForm()"
+      >
+        <span class="fa fa-comment"></span><span class="menu-words" style="padding-left:6px;">MESSAGE</span>
+      </a>
+    <div class="dropdown ie-hack hidden-xs" dropdown>
+      <div class="menu-button dropdown-toggle" dropdown-toggle>
+        <span>
+          <svg class="fa fa-v5-globe">
+            <use xlink:href="#fa-v5-globe" />
+          </svg>
+        </span>
+        <span class="menu-words" style="padding-left:5px;padding-right:5px;">English</span>
+        <span class="caret menu-words" style="float: right;position: relative;top: 7px;"></span>
+      </div>
+      <ul class="dropdown-menu menu-button language">
+          <li ng-click="changeLanguage('en')"><span>English</span></li>
+          <li ng-click="changeLanguage('zh-hant')"><span>繁體中文</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-button search-button ie-hack">
+      <form ng-controller="ProductsSearchController" ng-submit="search(searchQuery, $event)" action="/products" style="margin-bottom: 0">
+        <input name="query" ng-model="searchQuery" placeholder="Search Products" maxlength="100">
+        <button><span class="fa fa-search"></span></button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+  <div class="body-wrapper
+              
+              
+              
+        "
+  >
+    <div class="body-content mobile-revamp-navigation">
+  <!-- navigation -->
+<nav class="main-navigation">
+  
+    <div class="navbar-wrapper " >
+      <div class="navbar hidden-xs" role="navigation">
+        <div class="navbar-header-wrapper">
+          <div class="container" >
+            <div class="navbar-header">
+              <a href="https://www.magic-pro.com/">
+                <img src="https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5ddcfecc54f3720b7cbdf89a/x140.webp?source_format=png"  class="logo-image sl-lazy-image" data-resizing-segment="140" />
+              </a>
+            </div>
+          </div> <!--container-->
+        </div>
+        <div class="navbar-menu-wrapper">
+          <div class="container" >
+            <div class="navbar-menu hidden-xs">
+              <ul class="text-primary-color">
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/">
+        <a link-highlight="/" href="/" target="" ng-non-bindable>Home</a>
+      </li>
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/categories/prevention-care">
+        <a link-highlight="/categories/prevention-care" href="/categories/prevention-care" target="" ng-non-bindable>Prevention Care</a>
+      </li>
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/categories/power-bank">
+        <a link-highlight="/categories/power-bank" href="/categories/power-bank" target="" ng-non-bindable>Power Bank</a>
+      </li>
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/categories/5ddf51507a5209613d19b9a1">
+        <a link-highlight="/categories/5ddf51507a5209613d19b9a1" href="/categories/5ddf51507a5209613d19b9a1" target="" ng-non-bindable>USB Charger</a>
+      </li>
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/categories/car-product">
+        <a link-highlight="/categories/car-product" href="/categories/car-product" target="" ng-non-bindable>Car Product</a>
+      </li>
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/categories/5dc3d7169ae33e003e4a619a">
+        <a link-highlight="/categories/5dc3d7169ae33e003e4a619a" href="/categories/5dc3d7169ae33e003e4a619a" target="" ng-non-bindable>Cable</a>
+      </li>
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/categories/5dc3d4cc493cea83c2cb29b4">
+        <a link-highlight="/categories/5dc3d4cc493cea83c2cb29b4" href="/categories/5dc3d4cc493cea83c2cb29b4" target="" ng-non-bindable>Travel Partner</a>
+      </li>
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/categories/5dc3d6ae03136f60f0691ba9">
+        <a link-highlight="/categories/5dc3d6ae03136f60f0691ba9" href="/categories/5dc3d6ae03136f60f0691ba9" target="" ng-non-bindable>TV &amp; AV Partner</a>
+      </li>
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/categories/homeware">
+        <a link-highlight="/categories/homeware" href="/categories/homeware" target="" ng-non-bindable>Homeware</a>
+      </li>
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/categories/wireless-charger">
+        <a link-highlight="/categories/wireless-charger" href="/categories/wireless-charger" target="" ng-non-bindable>Wireless Charger</a>
+      </li>
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/categories/members-only">
+        <a link-highlight="/categories/members-only" href="/categories/members-only" target="" ng-non-bindable>Members only （Log in first)</a>
+      </li>
+    <!-- Has dropdown links -->
+      <!-- doesn't have dropdown links -->
+      <li link-highlight="/blog/posts">
+        <a link-highlight="/blog/posts" href="/blog/posts" target="" ng-non-bindable>Blog Posts</a>
+      </li>
+    <!-- Has dropdown links -->
+      <li class="nav-dropdown" link-highlight="/pages/contact-us">
+        <a class="nav-dropdown-toggle" link-highlight="/pages/contact-us" href="/pages/contact-us" target="" ng-non-bindable>Contact Us <span class="caret"></span></a>
+        <ul class="nav-dropdown-menu">
+            <li link-highlight="/pages/about-magic-pro">
+              <a link-highlight="/pages/about-magic-pro" href="/pages/about-magic-pro" target="" ng-non-bindable>About Magic-Pro</a>
+            </li>
+            <li link-highlight="/forms/5dde2212730c490010709ee2">
+              <a link-highlight="/forms/5dde2212730c490010709ee2" href="/forms/5dde2212730c490010709ee2" target="_self" ng-non-bindable>Product Warranty</a>
+            </li>
+            <li link-highlight="/about/terms">
+              <a link-highlight="/about/terms" href="/about/terms" target="" ng-non-bindable>Terms and Conditions</a>
+            </li>
+            <li link-highlight="/about/policy">
+              <a link-highlight="/about/policy" href="/about/policy" target="" ng-non-bindable>Return Policy</a>
+            </li>
+            <li link-highlight="/pages/保養條款">
+              <a link-highlight="/pages/保養條款" href="/pages/保養條款" target="" ng-non-bindable>Warranty &amp; Maintenance</a>
+            </li>
+            <li link-highlight="/pages/privacy-policy">
+              <a link-highlight="/pages/privacy-policy" href="/pages/privacy-policy" target="" ng-non-bindable>Privacy Policy</a>
+            </li>
+            <li link-highlight="/pages/distributors">
+              <a link-highlight="/pages/distributors" href="/pages/distributors" target="" ng-non-bindable>Distributors</a>
+            </li>
+            <li link-highlight="/pages/contact-us">
+              <a link-highlight="/pages/contact-us" href="/pages/contact-us" target="" ng-non-bindable>Contact Us</a>
+            </li>
+            <li link-highlight="https://drive.google.com/drive/folders/0B0ZJBuO5GARvc292ZlVlZjl6N2M">
+              <a link-highlight="https://drive.google.com/drive/folders/0B0ZJBuO5GARvc292ZlVlZjl6N2M" href="https://drive.google.com/drive/folders/0B0ZJBuO5GARvc292ZlVlZjl6N2M" target="_blank" ng-non-bindable>ProHDTV Driver Download</a>
+            </li>
+        </ul>
+      </li>
+</ul>
+            </div>
+          </div> <!--container-->
+        </div>
+      </div><!--navbar-->
+    </div><!--navbar-wrapper-->
+</nav>
+<!-- navigation end -->
+
+
+  <!-- main Content -->
+  <div class="yield-wrapper">
+    
+
+<div class="custom-page" ga-page-view >
+  <div class="container global-primary container-full-width ">
+    <div class="container-md-height" style="height: 100%; table-layout: fixed; width: 100%; margin-bottom: 2%; "> <!-- height and width must be difined for td to size correctly -->
+      <div class="row row-md-height" style="height: 100%;">
+        <!-- Rendering page grid items -->
+        <div id="page-item-5ed4b5552e6afc00337acde2"
+             class="item grid-image-item
+              col-xs-12
+              col-md-12
+              col-md-height
+              padding-h-none"
+             style="vertical-align: top; height: 100%;">
+          <div style="height: 100%;">
+            <div class="box-info box-info-width-full" style="padding:0;">
+                <!-- Redner grid item partial -->
+                  <div class="ImageItem-carouselContainer">
+  <div class="owl-carousel-first-initializing item-container image-container
+    margin-bottomless
+    "
+  >
+    <img
+      class="sl-lazy-image"
+      src="https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5f64455dcab3ba00173055d4/400x.webp?source_format=jpg"
+      alt=""
+    >
+  </div>
+  <carousel-display desktop-media="[[{&quot;_id&quot;:&quot;5f64455dcab3ba00173055d4&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f64455dcab3ba00173055d4/original.jpg?1600406875&quot;}}},{&quot;url&quot;:null}],[{&quot;_id&quot;:&quot;5f45d7c30a61a4002d873438&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f45d7c30a61a4002d873438/original.jpg?1598412738&quot;}}},{&quot;url&quot;:&quot;https://www.magic-pro.com/products/promini-10k-hdmi-21-cable&quot;}],[{&quot;_id&quot;:&quot;5f45e6836c64b60024f3008c&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f45e6836c64b60024f3008c/original.jpg?1598416514&quot;}}},{&quot;url&quot;:&quot;https://www.magic-pro.com/categories/homeware&quot;}],[{&quot;_id&quot;:&quot;5f0e6a10e48c4c003f68ad54&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e6a10e48c4c003f68ad54/original.jpg?1594780174&quot;}}},{&quot;url&quot;:&quot;https://www.magic-pro.com/products/promini-uvo10-uv-ozone-sanitizer-wireless-fast-charger&quot;}],[{&quot;_id&quot;:&quot;5f0e696950c928002d71dae6&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e696950c928002d71dae6/original.jpg?1594780008&quot;}}},{&quot;url&quot;:&quot;https://www.magic-pro.com/products/promini-qs120-dualpddualqc-120w-quick-charging-station&quot;}],[{&quot;_id&quot;:&quot;5f0e69c9c885f700454fe576&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e69c9c885f700454fe576/original.jpg?1594780103&quot;}}},{&quot;url&quot;:&quot;https://www.magic-pro.com/categories/prevention-care&quot;}]]" mobile-media="[[{&quot;_id&quot;:&quot;5f64456a4e4adc001b37d174&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:1080.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f64456a4e4adc001b37d174/original.jpg?1600406889&quot;}}},{&quot;url&quot;:null}],[{&quot;_id&quot;:&quot;5f45d7c8749da80024ac674b&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:1080.0,&quot;height&quot;:810.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f45d7c8749da80024ac674b/original.jpg?1598412743&quot;}}},{&quot;url&quot;:&quot;https://www.magic-pro.com/products/promini-10k-hdmi-21-cable&quot;}],[{&quot;_id&quot;:&quot;5f45e68823ec9a0039c435cc&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:1080.0,&quot;height&quot;:810.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f45e68823ec9a0039c435cc/original.jpg?1598416519&quot;}}},{&quot;url&quot;:&quot;https://www.magic-pro.com/categories/homeware&quot;}],[{&quot;_id&quot;:&quot;5f0e6a10e48c4c003f68ad54&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e6a10e48c4c003f68ad54/original.jpg?1594780174&quot;}}},{&quot;url&quot;:&quot;https://www.magic-pro.com/products/promini-uvo10-uv-ozone-sanitizer-wireless-fast-charger&quot;}],[{&quot;_id&quot;:&quot;5f0e6974a4943c003c3390cf&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e6974a4943c003c3390cf/original.jpg?1594780019&quot;}}},{&quot;url&quot;:&quot;https://www.magic-pro.com/products/promini-qs120-dualpddualqc-120w-quick-charging-station&quot;}],[{&quot;_id&quot;:&quot;5f0e69c9c885f700454fe576&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e69c9c885f700454fe576/original.jpg?1594780103&quot;}}},{&quot;url&quot;:&quot;https://www.magic-pro.com/categories/prevention-care&quot;}]]" image-item="{&quot;_id&quot;:&quot;5f68109bbfbb780029c36488&quot;,&quot;hide_title&quot;:true,&quot;hide_description&quot;:true,&quot;type&quot;:&quot;image&quot;,&quot;properties&quot;:[],&quot;properties_translations&quot;:{&quot;zh-hant&quot;:[{&quot;url&quot;:null},{&quot;url&quot;:&quot;https://www.magic-pro.com/products/promini-10k-hdmi-21-cable&quot;},{&quot;url&quot;:&quot;https://www.magic-pro.com/categories/homeware&quot;},{&quot;url&quot;:&quot;https://www.magic-pro.com/products/promini-uvo10-uv-ozone-sanitizer-wireless-fast-charger&quot;},{&quot;url&quot;:&quot;https://www.magic-pro.com/products/promini-qs120-dualpddualqc-120w-quick-charging-station&quot;},{&quot;url&quot;:&quot;https://www.magic-pro.com/categories/prevention-care&quot;}]},&quot;row&quot;:0,&quot;column&quot;:0,&quot;item_id&quot;:&quot;5ed4b5552e6afc00337acde2&quot;,&quot;opens_in_new_tab&quot;:true,&quot;title_translations&quot;:{&quot;en&quot;:&quot;&quot;,&quot;zh-hant&quot;:&quot;&quot;,&quot;zh-hk&quot;:&quot;&quot;,&quot;zh-cn&quot;:&quot;&quot;,&quot;zh-tw&quot;:&quot;&quot;,&quot;vi&quot;:&quot;&quot;,&quot;ms&quot;:&quot;&quot;,&quot;ja&quot;:&quot;&quot;,&quot;th&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;de&quot;:&quot;&quot;,&quot;fr&quot;:&quot;&quot;},&quot;content_translations&quot;:{&quot;en&quot;:&quot;&quot;,&quot;zh-hant&quot;:&quot;&quot;,&quot;zh-hk&quot;:&quot;&quot;,&quot;zh-cn&quot;:&quot;&quot;,&quot;zh-tw&quot;:&quot;&quot;,&quot;vi&quot;:&quot;&quot;,&quot;ms&quot;:&quot;&quot;,&quot;ja&quot;:&quot;&quot;,&quot;th&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;de&quot;:&quot;&quot;,&quot;fr&quot;:&quot;&quot;},&quot;media_translations&quot;:{&quot;en&quot;:[],&quot;zh-hant&quot;:[{&quot;_id&quot;:&quot;5f64455dcab3ba00173055d4&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f64455dcab3ba00173055d4/original.jpg?1600406875&quot;}}},{&quot;_id&quot;:&quot;5f45d7c30a61a4002d873438&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f45d7c30a61a4002d873438/original.jpg?1598412738&quot;}}},{&quot;_id&quot;:&quot;5f45e6836c64b60024f3008c&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f45e6836c64b60024f3008c/original.jpg?1598416514&quot;}}},{&quot;_id&quot;:&quot;5f0e6a10e48c4c003f68ad54&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e6a10e48c4c003f68ad54/original.jpg?1594780174&quot;}}},{&quot;_id&quot;:&quot;5f0e696950c928002d71dae6&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e696950c928002d71dae6/original.jpg?1594780008&quot;}}},{&quot;_id&quot;:&quot;5f0e69c9c885f700454fe576&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e69c9c885f700454fe576/original.jpg?1594780103&quot;}}}],&quot;zh-hk&quot;:[],&quot;zh-cn&quot;:[],&quot;zh-tw&quot;:[],&quot;vi&quot;:[],&quot;ms&quot;:[],&quot;ja&quot;:[],&quot;th&quot;:[],&quot;id&quot;:[],&quot;de&quot;:[],&quot;fr&quot;:[]},&quot;mobile_media_translations&quot;:{&quot;en&quot;:[],&quot;zh-hant&quot;:[{&quot;_id&quot;:&quot;5f64456a4e4adc001b37d174&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:1080.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f64456a4e4adc001b37d174/original.jpg?1600406889&quot;}}},{&quot;_id&quot;:&quot;5f45d7c8749da80024ac674b&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:1080.0,&quot;height&quot;:810.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f45d7c8749da80024ac674b/original.jpg?1598412743&quot;}}},{&quot;_id&quot;:&quot;5f45e68823ec9a0039c435cc&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:1080.0,&quot;height&quot;:810.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f45e68823ec9a0039c435cc/original.jpg?1598416519&quot;}}},{&quot;_id&quot;:&quot;5f0e6a10e48c4c003f68ad54&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e6a10e48c4c003f68ad54/original.jpg?1594780174&quot;}}},{&quot;_id&quot;:&quot;5f0e6974a4943c003c3390cf&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e6974a4943c003c3390cf/original.jpg?1594780019&quot;}}},{&quot;_id&quot;:&quot;5f0e69c9c885f700454fe576&quot;,&quot;alt_translations&quot;:{},&quot;images&quot;:{&quot;original&quot;:{&quot;width&quot;:2000.0,&quot;height&quot;:800.0,&quot;url&quot;:&quot;https://img.shoplineapp.com/media/image_clips/5f0e69c9c885f700454fe576/original.jpg?1594780103&quot;}}}],&quot;zh-hk&quot;:[],&quot;zh-cn&quot;:[],&quot;zh-tw&quot;:[],&quot;vi&quot;:[],&quot;ms&quot;:[],&quot;ja&quot;:[],&quot;th&quot;:[],&quot;id&quot;:[],&quot;de&quot;:[],&quot;fr&quot;:[]},&quot;full_width&quot;:true,&quot;remove_padding&quot;:false,&quot;remove_horizontal_padding&quot;:false,&quot;carousel&quot;:{&quot;interval&quot;:5},&quot;cache_key&quot;:&quot;pages/5db91355c2c2050024b1c663/20201013164005483000000/grid_items/5ed4b5552e6afc00337acde2/hidden_product_show/false/media-10-1600406899.484/user-is-member:-tier_id:/product_setting:settings/5db910f60d90337d85cf34ed-20191217143518388000000/target_type:shop&quot;}" is-preview="true">
+  </carousel-display>
+</div>
+
+                <!-- Redner grid item title -->
+                <!-- Redner grid item content -->
+               <!-- End of cache  -->
+              <!-- Rendering express checkout default content -->
+ <!-- End of rendering express checkout default content -->
+            </div>
+          </div>
+        </div>
+         <!-- End of rendering page grid items -->
+      </div> <!-- End of row -->
+    </div> <!-- End of container-md-height -->
+  </div> <!-- End of container -->
+  <div class="container global-primary container-full-width padding-v-none">
+    <div class="container-md-height" style="height: 100%; table-layout: fixed; width: 100%; margin-bottom: 2%; "> <!-- height and width must be difined for td to size correctly -->
+      <div class="row row-md-height" style="height: 100%;">
+        <!-- Rendering page grid items -->
+        <div id="page-item-5ddceb6db4bab51e1d5ced68"
+             class="item grid-image-item
+              col-xs-12
+              col-md-12
+              col-md-height
+              padding-h-none"
+             style="vertical-align: top; height: 100%;">
+          <div style="height: 100%;">
+            <div class="box-info box-info-width-full" style="padding:0;">
+                <!-- Redner grid item partial -->
+                  
+  <div class="editor-boxify-image-wrapper boxify-image-wrapper image-container
+    margin-bottomless
+    "
+  >
+      <a
+        href="https://www.magic-pro.com/products/promini-inft01-infrared-thermometer"
+        target="_blank"
+      >
+      <img
+        class="sl-lazy-image"
+        src="https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5f0e69ac536f360033011f0d/400x.webp?source_format=jpg"
+        alt=""
+      >
+
+      </a>
+
+  </div>
+
+                <!-- Redner grid item title -->
+                <!-- Redner grid item content -->
+               <!-- End of cache  -->
+              <!-- Rendering express checkout default content -->
+ <!-- End of rendering express checkout default content -->
+            </div>
+          </div>
+        </div>
+         <!-- End of rendering page grid items -->
+      </div> <!-- End of row -->
+    </div> <!-- End of container-md-height -->
+  </div> <!-- End of container -->
+  <div class="container global-primary  ">
+    <div class="container-md-height" style="height: 100%; table-layout: fixed; width: 100%; margin-bottom: 2%; "> <!-- height and width must be difined for td to size correctly -->
+      <div class="row row-md-height" style="height: 100%;">
+        <!-- Rendering page grid items -->
+        <div id="page-item-5ed4b5552e6afc00337acde4"
+             class="item grid-image-item
+              col-xs-12
+              col-md-4
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+          <div style="height: 100%;">
+            <div class="box-info " style="">
+                <!-- Redner grid item partial -->
+                  
+  <div class="editor-boxify-image-wrapper boxify-image-wrapper image-container
+    margin-bottomless
+    "
+  >
+      <a
+        href="https://www.magic-pro.com/products/promini-ls10-portable-charger"
+        target="_blank"
+      >
+      <img
+        class="sl-lazy-image"
+        src="https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5f0ea83de4a416004b37199e/400x.webp?source_format=jpg"
+        alt=""
+      >
+
+      </a>
+
+  </div>
+
+                <!-- Redner grid item title -->
+                <!-- Redner grid item content -->
+               <!-- End of cache  -->
+              <!-- Rendering express checkout default content -->
+ <!-- End of rendering express checkout default content -->
+            </div>
+          </div>
+        </div>
+                <div id="page-item-5eeb0fa033d4df0042e9d0b9"
+             class="item grid-image-item
+              col-xs-12
+              col-md-4
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+          <div style="height: 100%;">
+            <div class="box-info " style="">
+                <!-- Redner grid item partial -->
+                  
+  <div class="editor-boxify-image-wrapper boxify-image-wrapper image-container
+    margin-bottomless
+    "
+  >
+      <a
+        href="https://www.magic-pro.com/products/promini-ledws-multi-function-eye-protection-led-desk-lamp-with-wireless-speaker"
+        target="_blank"
+      >
+      <img
+        class="sl-lazy-image"
+        src="https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5f0ea87e662fef004b4687be/400x.webp?source_format=jpg"
+        alt=""
+      >
+
+      </a>
+
+  </div>
+
+                <!-- Redner grid item title -->
+                <!-- Redner grid item content -->
+               <!-- End of cache  -->
+              <!-- Rendering express checkout default content -->
+ <!-- End of rendering express checkout default content -->
+            </div>
+          </div>
+        </div>
+                <div id="page-item-5ed4b5552e6afc00337acde5"
+             class="item grid-image-item
+              col-xs-12
+              col-md-4
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+          <div style="height: 100%;">
+            <div class="box-info " style="">
+                <!-- Redner grid item partial -->
+                  
+  <div class="editor-boxify-image-wrapper boxify-image-wrapper image-container
+    margin-bottomless
+    "
+  >
+      <a
+        href="https://www.magic-pro.com/categories/5dc3d7169ae33e003e4a619a"
+        target="_blank"
+      >
+      <img
+        class="sl-lazy-image"
+        src="https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5f0ea8a470a6270039156f1b/400x.webp?source_format=jpg"
+        alt=""
+      >
+
+      </a>
+
+  </div>
+
+                <!-- Redner grid item title -->
+                <!-- Redner grid item content -->
+               <!-- End of cache  -->
+              <!-- Rendering express checkout default content -->
+ <!-- End of rendering express checkout default content -->
+            </div>
+          </div>
+        </div>
+         <!-- End of rendering page grid items -->
+      </div> <!-- End of row -->
+    </div> <!-- End of container-md-height -->
+  </div> <!-- End of container -->
+  <div class="container global-primary  ">
+    <div class="container-md-height" style="height: 100%; table-layout: fixed; width: 100%; margin-bottom: 2%; "> <!-- height and width must be difined for td to size correctly -->
+      <div class="row row-md-height" style="height: 100%;">
+        <!-- Rendering page grid items -->
+        <div id="page-item-5ee9ceb7f59868004210e81e"
+             class="item grid-products-item
+              col-xs-12
+              col-md-12
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+          <div style="height: 100%;">
+            <div class="box-info " style="">
+                <!-- Redner grid item partial -->
+                  
+    <p class="global-primary dark-primary section-title">
+      <span>
+        Featured Products
+      </span>
+    </p>
+
+
+    <div class="page-item-products-container"
+      page-item-products=""
+      init-category="{&quot;_id&quot;:&quot;5db90ee80d90330035cf94af&quot;,&quot;name_translations&quot;:{&quot;en&quot;:&quot;Featured Products&quot;,&quot;zh-hant&quot;:&quot;精選商品&quot;,&quot;zh-hk&quot;:&quot;精選商品&quot;,&quot;zh-cn&quot;:&quot;精选商品&quot;,&quot;zh-tw&quot;:&quot;精選商品&quot;,&quot;vi&quot;:&quot;Sản phẩm nổi bật&quot;,&quot;ms&quot;:&quot;Produk Terpilih&quot;,&quot;ja&quot;:&quot;おすすめ商品&quot;,&quot;th&quot;:&quot;สินค้าแนะนำ&quot;,&quot;id&quot;:&quot;Produk Unggulan&quot;,&quot;de&quot;:&quot;Empfohlene Produkte&quot;,&quot;fr&quot;:&quot;Produits à la une&quot;},&quot;count&quot;:37}"
+      items-per-page="24"
+      col-class="col-md-3"
+      is-quick-cart="true"
+      open-link-in-new-tab="true"
+      is-hidden-product-visible="false"
+    >
+      <div class="product-items-container quick-cart-container">
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5de9d7f6f97066003dfb9edf","sku":"PM-CBCC","variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;Carbon Black 18cm\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;炭黑 18cm\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5de9d7f6f5f7bc001302049a\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:7800.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$78.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-CBCC18BK\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini Type-C to Type-C PD Quick Charge \u0026amp; Sync Cable"}'
+  >
+      <product-item product-id="5de9d7f6f97066003dfb9edf" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5de9d7f6f97066003dfb9edf"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5de9d7f6f97066003dfb9edf&#39;, &#39;PM-CBCC&#39;, [&quot;{\&quot;key\&quot;:\&quot;5de9d7f6f5f7bc001302049a\&quot;,\&quot;sku\&quot;:\&quot;PM-CBCC18BK\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;Carbon Black 18cm\&quot;],\&quot;zh-hant\&quot;:[\&quot;炭黑 18cm\&quot;]}}&quot;], &#39;ProMini Type-C to Type-C PD Quick Charge &amp;amp; Sync Cable&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5e55eb0cfc222100398d5473/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Type-C to Type-C PD Quick Charge &amp; Sync Cable
+        </div>
+        <div class="quick-cart-price">
+              <!-- variations -->
+                <div class="price-sale price ">
+                  HK$78.00 ~ HK$98.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5efabc43e81f5c0048c824f4","sku":"PM-LEDWSWH","variations":"[null]","title":"ProMini LEDWS Multi-Function Eye protection LED Desk lamp, with Wireless Speaker"}'
+  >
+      <product-item product-id="5efabc43e81f5c0048c824f4" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5efabc43e81f5c0048c824f4"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5efabc43e81f5c0048c824f4&#39;, &#39;PM-LEDWSWH&#39;, [], &#39;ProMini LEDWS Multi-Function Eye protection LED Desk lamp, with Wireless Speaker&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5efab9fa166b4400240327a5/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini LEDWS Multi-Function Eye protection LED Desk lamp, with Wireless Speaker
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price  ">
+                HK$388.00
+              </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5efab818ada192004c46e571","sku":"PM-LEDQ10WH","variations":"[null]","title":"ProMini LEDQ10 Multi-Function Eye protection LED Desk lamp, with Wireless Charger"}'
+  >
+      <product-item product-id="5efab818ada192004c46e571" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5efab818ada192004c46e571"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5efab818ada192004c46e571&#39;, &#39;PM-LEDQ10WH&#39;, [], &#39;ProMini LEDQ10 Multi-Function Eye protection LED Desk lamp, with Wireless Charger&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5efab69be04e8b00305a8850/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini LEDQ10 Multi-Function Eye protection LED Desk lamp, with Wireless Charger
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price  ">
+                HK$388.00
+              </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5ee9c83030eb73002727f556","sku":null,"variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;1.2M\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5ee9c830c956b0000a81aeb2\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:12800.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$128.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-CB10HH120GY\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini 10K HDMI 2.1 Cable"}'
+  >
+      <product-item product-id="5ee9c83030eb73002727f556" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5ee9c83030eb73002727f556"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5ee9c83030eb73002727f556&#39;, &#39;&#39;, [&quot;{\&quot;key\&quot;:\&quot;5ee9c830c956b0000a81aeb2\&quot;,\&quot;sku\&quot;:\&quot;PM-CB10HH120GY\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;\&quot;],\&quot;zh-hant\&quot;:[\&quot;1.2M\&quot;]}}&quot;], &#39;ProMini 10K HDMI 2.1 Cable&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5ee9c43130eb73002427f468/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini 10K HDMI 2.1 Cable
+        </div>
+        <div class="quick-cart-price">
+              <!-- variations -->
+                <div class="price-sale price ">
+                  HK$128.00 ~ HK$198.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5ee9c30aa96632002ac61d63","sku":null,"variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;Pale Blue\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;藍色\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5ee9c30a5afbbc000b6a0c6e\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$0.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-IONPSFPB\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini IONPSF Plasma ION Double-Effect Air Sterilizing Fan"}'
+  >
+      <product-item product-id="5ee9c30aa96632002ac61d63" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5ee9c30aa96632002ac61d63"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5ee9c30aa96632002ac61d63&#39;, &#39;&#39;, [&quot;{\&quot;key\&quot;:\&quot;5ee9c30a5afbbc000b6a0c6e\&quot;,\&quot;sku\&quot;:\&quot;PM-IONPSFPB\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;Pale Blue\&quot;],\&quot;zh-hant\&quot;:[\&quot;藍色\&quot;]}}&quot;], &#39;ProMini IONPSF Plasma ION Double-Effect Air Sterilizing Fan&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5ee9c04ef70d990048b00293/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini IONPSF Plasma ION Double-Effect Air Sterilizing Fan
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price price-crossed ">
+                HK$198.00
+              </div>
+                <div class="price-sale price ">
+                  HK$168.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5ee99aee849a9f0024b18e00","sku":"PM-IONPWH","variations":"[null]","title":"ProMini IONP Plasma ION Portable Air Sanitizer"}'
+  >
+      <product-item product-id="5ee99aee849a9f0024b18e00" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5ee99aee849a9f0024b18e00"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5ee99aee849a9f0024b18e00&#39;, &#39;PM-IONPWH&#39;, [], &#39;ProMini IONP Plasma ION Portable Air Sanitizer&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5ee9e1dd16691d004e15b14b/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini IONP Plasma ION Portable Air Sanitizer
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price price-crossed ">
+                HK$288.00
+              </div>
+                <div class="price-sale price ">
+                  HK$228.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5eccc47f6f3a058ac53c437e","sku":"PM-UVO10WH","variations":"[null]","title":"ProMini UVO10 UV + OZONE Sanitizer Wireless Fast Charger"}'
+  >
+      <product-item product-id="5eccc47f6f3a058ac53c437e" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5eccc47f6f3a058ac53c437e"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5eccc47f6f3a058ac53c437e&#39;, &#39;PM-UVO10WH&#39;, [], &#39;ProMini UVO10 UV + OZONE Sanitizer Wireless Fast Charger&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5eccc03b9d4d9858150745ff/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini UVO10 UV + OZONE Sanitizer Wireless Fast Charger
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price price-crossed ">
+                HK$388.00
+              </div>
+                <div class="price-sale price ">
+                  HK$328.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5ea9505643f5ad000f247afa","sku":"PM-INFT01WH","variations":"[null]","title":"ProMini INFT01 Infrared Thermometer"}'
+  >
+      <product-item product-id="5ea9505643f5ad000f247afa" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5ea9505643f5ad000f247afa"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5ea9505643f5ad000f247afa&#39;, &#39;PM-INFT01WH&#39;, [], &#39;ProMini INFT01 Infrared Thermometer&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5ea94ff15ba12f002a18b6da/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini INFT01 Infrared Thermometer
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price price-crossed ">
+                HK$488.00
+              </div>
+                <div class="price-sale price ">
+                  HK$368.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5ea7af9afc8cdc0033e915fb","sku":null,"variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;Blue\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;藍色\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5ea7b064094789001035e709\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$0.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-PB5DRBL\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini 5DR PD Fast Charge Portable Charger"}'
+  >
+      <product-item product-id="5ea7af9afc8cdc0033e915fb" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5ea7af9afc8cdc0033e915fb"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5ea7af9afc8cdc0033e915fb&#39;, &#39;&#39;, [&quot;{\&quot;key\&quot;:\&quot;5ea7b064094789001035e709\&quot;,\&quot;sku\&quot;:\&quot;PM-PB5DRBL\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;Blue\&quot;],\&quot;zh-hant\&quot;:[\&quot;藍色\&quot;]}}&quot;], &#39;ProMini 5DR PD Fast Charge Portable Charger&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5ea7a70c40572900166a3e09/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini 5DR PD Fast Charge Portable Charger
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price  ">
+                HK$148.00
+              </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5ea29d1f4810d40012a124ae","sku":"PM-PB10DF","variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;Blue\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;藍色\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5ea29d1f5d5705000ad58555\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$0.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-PB10DFBL\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini 10DF PD Fast Charge Portable Charger"}'
+  >
+      <product-item product-id="5ea29d1f4810d40012a124ae" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5ea29d1f4810d40012a124ae"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5ea29d1f4810d40012a124ae&#39;, &#39;PM-PB10DF&#39;, [&quot;{\&quot;key\&quot;:\&quot;5ea29d1f5d5705000ad58555\&quot;,\&quot;sku\&quot;:\&quot;PM-PB10DFBL\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;Blue\&quot;],\&quot;zh-hant\&quot;:[\&quot;藍色\&quot;]}}&quot;], &#39;ProMini 10DF PD Fast Charge Portable Charger&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image out-of-stock "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5ea29806c6c8c2001f900d9c/400x.webp?source_format=jpg)">
+
+        </div>
+          <div class="sold-out-item-content">
+            <div class="sold-out-item">SOLD OUT</div>
+          </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini 10DF PD Fast Charge Portable Charger
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price  ">
+                HK$168.00
+              </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart sold-out-item "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5e8d92ce556969001e6943d0","sku":"PM-PB10P67BL","variations":"[null]","title":"ProMini 10P67 Waterproof PD Fast Charge Portable Charger"}'
+  >
+      <product-item product-id="5e8d92ce556969001e6943d0" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5e8d92ce556969001e6943d0"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5e8d92ce556969001e6943d0&#39;, &#39;PM-PB10P67BL&#39;, [], &#39;ProMini 10P67 Waterproof PD Fast Charge Portable Charger&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5e8d9097cf292c0018dbba4f/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini 10P67 Waterproof PD Fast Charge Portable Charger
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price price-crossed ">
+                HK$288.00
+              </div>
+                <div class="price-sale price ">
+                  HK$228.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5de897b3fc1578000fac2a24","sku":"PM-WCQIDBU","variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;Blue\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;迷鑽藍\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5de897b3e9f3ef001dda619b\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$0.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-WCQIDBU\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini Qi Dock 10W Wireless Charging Dock"}'
+  >
+      <product-item product-id="5de897b3fc1578000fac2a24" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5de897b3fc1578000fac2a24"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5de897b3fc1578000fac2a24&#39;, &#39;PM-WCQIDBU&#39;, [&quot;{\&quot;key\&quot;:\&quot;5de897b3e9f3ef001dda619b\&quot;,\&quot;sku\&quot;:\&quot;PM-WCQIDBU\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;Blue\&quot;],\&quot;zh-hant\&quot;:[\&quot;迷鑽藍\&quot;]}}&quot;], &#39;ProMini Qi Dock 10W Wireless Charging Dock&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image out-of-stock "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5de8948007d4ba0033ad5aa3/400x.webp?source_format=jpg)">
+
+        </div>
+          <div class="sold-out-item-content">
+            <div class="sold-out-item">SOLD OUT</div>
+          </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Qi Dock 10W Wireless Charging Dock
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price  ">
+                HK$138.00
+              </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart sold-out-item "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5de8d23a2257ef0012995361","sku":"PM-PBBS6","variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;Pink\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;櫻花粉\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5df87de8281afe001cb23b91\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$0.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-PBBS6RG\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini Bs6 Portable Charger"}'
+  >
+      <product-item product-id="5de8d23a2257ef0012995361" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5de8d23a2257ef0012995361"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5de8d23a2257ef0012995361&#39;, &#39;PM-PBBS6&#39;, [&quot;{\&quot;key\&quot;:\&quot;5df87de8281afe001cb23b91\&quot;,\&quot;sku\&quot;:\&quot;PM-PBBS6RG\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;Pink\&quot;],\&quot;zh-hant\&quot;:[\&quot;櫻花粉\&quot;]}}&quot;], &#39;ProMini Bs6 Portable Charger&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image out-of-stock "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5de8cb5e8d372c003663e5dc/400x.webp?source_format=jpg)">
+
+        </div>
+          <div class="sold-out-item-content">
+            <div class="sold-out-item">SOLD OUT</div>
+          </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Bs6 Portable Charger
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price  ">
+                HK$228.00
+              </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart sold-out-item "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5de9d9b08688da002dff0b29","sku":"PM-CBLC","variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;Carbon Black 18cm\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;炭黑 18cm\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5de9d9af2b7d770010b4f7f3\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:14800.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$148.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-CBLC18BK\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini Type-C to Lightning MFi PD Quick Charge \u0026amp; Sync Cable"}'
+  >
+      <product-item product-id="5de9d9b08688da002dff0b29" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5de9d9b08688da002dff0b29"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5de9d9b08688da002dff0b29&#39;, &#39;PM-CBLC&#39;, [&quot;{\&quot;key\&quot;:\&quot;5de9d9af2b7d770010b4f7f3\&quot;,\&quot;sku\&quot;:\&quot;PM-CBLC18BK\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;Carbon Black 18cm\&quot;],\&quot;zh-hant\&quot;:[\&quot;炭黑 18cm\&quot;]}}&quot;], &#39;ProMini Type-C to Lightning MFi PD Quick Charge &amp;amp; Sync Cable&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5de9d877e3b231003018c789/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Type-C to Lightning MFi PD Quick Charge &amp; Sync Cable
+        </div>
+        <div class="quick-cart-price">
+              <!-- variations -->
+                <div class="price-sale price ">
+                  HK$148.00 ~ HK$188.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5de9e52e2e6977001bdc35b8","sku":"PM-CBCC5A200BU","variations":"[null]","title":"ProMini Type-C PD Charge \u0026amp; Sync Cable 200cm"}'
+  >
+      <product-item product-id="5de9e52e2e6977001bdc35b8" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5de9e52e2e6977001bdc35b8"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5de9e52e2e6977001bdc35b8&#39;, &#39;PM-CBCC5A200BU&#39;, [], &#39;ProMini Type-C PD Charge &amp;amp; Sync Cable 200cm&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image out-of-stock "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5de9e4dfc66c11001c8ff645/400x.webp?source_format=jpg)">
+
+        </div>
+          <div class="sold-out-item-content">
+            <div class="sold-out-item">SOLD OUT</div>
+          </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Type-C PD Charge &amp; Sync Cable 200cm
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price  ">
+                HK$108.00
+              </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart sold-out-item "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5de9d2ef28edbd47e9e7ceae","sku":"PM-CBMA","variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;Carbon Black 18cm\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;炭黑 18cm\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5de9d2eff256cc0013275577\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:4800.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$48.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-CBMA18BK\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini Micro-USB to USB Quick Charge \u0026amp; Sync Cable"}'
+  >
+      <product-item product-id="5de9d2ef28edbd47e9e7ceae" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5de9d2ef28edbd47e9e7ceae"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5de9d2ef28edbd47e9e7ceae&#39;, &#39;PM-CBMA&#39;, [&quot;{\&quot;key\&quot;:\&quot;5de9d2eff256cc0013275577\&quot;,\&quot;sku\&quot;:\&quot;PM-CBMA18BK\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;Carbon Black 18cm\&quot;],\&quot;zh-hant\&quot;:[\&quot;炭黑 18cm\&quot;]}}&quot;], &#39;ProMini Micro-USB to USB Quick Charge &amp;amp; Sync Cable&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5de9d15075c3a80018ce0f11/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Micro-USB to USB Quick Charge &amp; Sync Cable
+        </div>
+        <div class="quick-cart-price">
+              <!-- variations -->
+                <div class="price-sale price ">
+                  HK$48.00 ~ HK$58.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5de9d4568e9a78002ad129e2","sku":"PM-CBLA","variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;Carbon Black 18cm\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;炭黑 18cm\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5de9d4553fc1590016f5e7ff\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:12800.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$128.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-CBLA18BK\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini MFi Lightning to USB Quick Charge \u0026amp; Sync Cable"}'
+  >
+      <product-item product-id="5de9d4568e9a78002ad129e2" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5de9d4568e9a78002ad129e2"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5de9d4568e9a78002ad129e2&#39;, &#39;PM-CBLA&#39;, [&quot;{\&quot;key\&quot;:\&quot;5de9d4553fc1590016f5e7ff\&quot;,\&quot;sku\&quot;:\&quot;PM-CBLA18BK\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;Carbon Black 18cm\&quot;],\&quot;zh-hant\&quot;:[\&quot;炭黑 18cm\&quot;]}}&quot;], &#39;ProMini MFi Lightning to USB Quick Charge &amp;amp; Sync Cable&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5de9d32499f19d0021071ed2/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini MFi Lightning to USB Quick Charge &amp; Sync Cable
+        </div>
+        <div class="quick-cart-price">
+              <!-- variations -->
+                <div class="price-sale price ">
+                  HK$128.00 ~ HK$148.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5e256838f7b0ea0018653870","sku":"PM-PB10DR","variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;Blue\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;藍色\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5e256838406e7c00138d1c7b\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$0.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-PB10DRBL\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini 10DR Portable Charger"}'
+  >
+      <product-item product-id="5e256838f7b0ea0018653870" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5e256838f7b0ea0018653870"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5e256838f7b0ea0018653870&#39;, &#39;PM-PB10DR&#39;, [&quot;{\&quot;key\&quot;:\&quot;5e256838406e7c00138d1c7b\&quot;,\&quot;sku\&quot;:\&quot;PM-PB10DRBL\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;Blue\&quot;],\&quot;zh-hant\&quot;:[\&quot;藍色\&quot;]}}&quot;], &#39;ProMini 10DR Portable Charger&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5e25690153a45f001592d6fd/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini 10DR Portable Charger
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price price-crossed ">
+                HK$238.00
+              </div>
+                <div class="price-sale price ">
+                  HK$198.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5e09d37abfc17e0015e4cb9e","sku":"PM-UCQS120","variations":"[null]","title":"ProMini Qs120 Dual PD \u0026amp; Dual QC Max.120W* Quick Charging Station"}'
+  >
+      <product-item product-id="5e09d37abfc17e0015e4cb9e" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5e09d37abfc17e0015e4cb9e"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5e09d37abfc17e0015e4cb9e&#39;, &#39;PM-UCQS120&#39;, [], &#39;ProMini Qs120 Dual PD &amp;amp; Dual QC Max.120W* Quick Charging Station&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5e0db6e3db6d4000333a949b/400x.webp?source_format=JPG)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Qs120 Dual PD &amp; Dual QC Max.120W* Quick Charging Station
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price price-crossed ">
+                HK$448.00
+              </div>
+                <div class="price-sale price ">
+                  HK$398.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5e05b445de74ee0012a07f79","sku":"PM-UCQS60V","variations":"[null]","title":"ProMini Qs60V PD3.0/QC4+ 60W Quick Charging Station"}'
+  >
+      <product-item product-id="5e05b445de74ee0012a07f79" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5e05b445de74ee0012a07f79"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5e05b445de74ee0012a07f79&#39;, &#39;PM-UCQS60V&#39;, [], &#39;ProMini Qs60V PD3.0/QC4+ 60W Quick Charging Station&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5e12f169d9faf80033f647d2/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Qs60V PD3.0/QC4+ 60W Quick Charging Station
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price  ">
+                HK$228.00
+              </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5de9ea02d9a573002472b0f9","sku":"PM-QS4TPD","variations":"[null]","title":"ProMini Qs4TPD 45W 2 Way PD/QC Travel Charger"}'
+  >
+      <product-item product-id="5de9ea02d9a573002472b0f9" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5de9ea02d9a573002472b0f9"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5de9ea02d9a573002472b0f9&#39;, &#39;PM-QS4TPD&#39;, [], &#39;ProMini Qs4TPD 45W 2 Way PD/QC Travel Charger&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5de9e71383cdd70012148f0e/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Qs4TPD 45W 2 Way PD/QC Travel Charger
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price  ">
+                HK$448.00
+              </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5de8ca9948adad0030d7b7f5","sku":"PM-UCQS105","variations":"[null]","title":"ProMini Qs105 Dual PD \u0026amp; Dual QC Max.105W* Quick Charging Station"}'
+  >
+      <product-item product-id="5de8ca9948adad0030d7b7f5" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5de8ca9948adad0030d7b7f5"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5de8ca9948adad0030d7b7f5&#39;, &#39;PM-UCQS105&#39;, [], &#39;ProMini Qs105 Dual PD &amp;amp; Dual QC Max.105W* Quick Charging Station&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5de8c74a752a2e789224d185/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Qs105 Dual PD &amp; Dual QC Max.105W* Quick Charging Station
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price price-crossed ">
+                HK$348.00
+              </div>
+                <div class="price-sale price ">
+                  HK$298.00
+                </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5e05bc3018ec550018302e1f","sku":"PM-PBLS10","variations":"[{\u0026quot;fields\u0026quot;:null,\u0026quot;fields_translations\u0026quot;:{\u0026quot;en\u0026quot;:[\u0026quot;Blue\u0026quot;],\u0026quot;zh-hant\u0026quot;:[\u0026quot;藍色\u0026quot;]},\u0026quot;key\u0026quot;:\u0026quot;5e05bc30bdb5770016f80d01\u0026quot;,\u0026quot;price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;,\u0026quot;label\u0026quot;:\u0026quot;HK$0.00\u0026quot;},\u0026quot;sku\u0026quot;:\u0026quot;PM-PBLS10BL\u0026quot;,\u0026quot;member_price\u0026quot;:{\u0026quot;cents\u0026quot;:0.0,\u0026quot;currency_iso\u0026quot;:\u0026quot;HKD\u0026quot;}}]","title":"ProMini Ls10 PD3.0/QC4+ Portable Charger"}'
+  >
+      <product-item product-id="5e05bc3018ec550018302e1f" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5e05bc3018ec550018302e1f"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5e05bc3018ec550018302e1f&#39;, &#39;PM-PBLS10&#39;, [&quot;{\&quot;key\&quot;:\&quot;5e05bc30bdb5770016f80d01\&quot;,\&quot;sku\&quot;:\&quot;PM-PBLS10BL\&quot;,\&quot;fields_translations\&quot;:{\&quot;en\&quot;:[\&quot;Blue\&quot;],\&quot;zh-hant\&quot;:[\&quot;藍色\&quot;]}}&quot;], &#39;ProMini Ls10 PD3.0/QC4+ Portable Charger&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5e12eb51a5c2f00024810515/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Ls10 PD3.0/QC4+ Portable Charger
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price  ">
+                HK$198.00
+              </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+          <div class="product-item col-xs-6 col-md-3"
+    ga-product='{"id":"5de9f17d52e9420024b90278","sku":"PM-PBDS20GY","variations":"[null]","title":"ProMini Ds20 PD3.0/QC4+ Fast Charge Portable Charger"}'
+  >
+      <product-item product-id="5de9f17d52e9420024b90278" ng-class="{'quick-cart-mobile': isMobileTabletWidth()}">
+
+      <a href="/products/5de9f17d52e9420024b90278"
+          target="_blank" 
+          class="quick-cart-item" 
+         ng-click="sendGaProductClick(&#39;5de9f17d52e9420024b90278&#39;, &#39;PM-PBDS20GY&#39;, [], &#39;ProMini Ds20 PD3.0/QC4+ Fast Charge Portable Charger&#39;)">
+      <div class="boxify-image-wrapper">
+        <div class="boxify-image center-contain sl-lazy-image  "
+          style="background-image:url(https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5e0583ce679868002d40f44b/400x.webp?source_format=jpg)">
+
+              <div class="btn-add-to-cart js-btn-quick-cart-add-to-cart hidden-xs" ng-class="{'hidden': isMobileTabletWidth()}"> ADD TO CART </div>
+        </div>
+      </div>
+    <div class="info-box">
+      <div class="info-box-inner-wrapper">
+        <div class="title text-primary-color title-container ellipsis " data-max-height="45" ng-non-bindable>
+          ProMini Ds20 PD3.0/QC4+ Fast Charge Portable Charger
+        </div>
+        <div class="quick-cart-price">
+              <div class="global-primary dark-primary price  ">
+                HK$228.00
+              </div>
+        </div>
+          <span
+            class="btn-add-to-cart js-btn-quick-cart-add-to-cart mobile-cart  "
+            ng-class="{'hidden': !isMobileTabletWidth()}"
+            ng-cloak
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+
+      </div>
+    </div>
+  </a>
+  </product-item>
+
+</div>
+
+      </div>
+      <div class="clear"></div>
+      <span>
+        <div ng-show="state.loading" class="text-center padding-md state-loading">
+          <img style="width: auto; margin: 0 auto;" src="https://static.shoplineapp.com/web/assets/misc/loader1.gif">
+        </div>
+        <div ng-hide="state.loading || pagination.total <= pagination.itemsPerPage" class="text-center padding-md">
+          <ul uib-pagination total-items="category.count" ng-model="pagination.currentPage" items-per-page="pagination.itemsPerPage" ng-change="onPageChanged(pagination.currentPage)" rotate="true" direction-links="true" max-size="5" previous-text="&laquo;" next-text="&raquo;"></ul>
+        </div>
+      </span>
+    </div>
+
+                <!-- Redner grid item title -->
+                <!-- Redner grid item content -->
+               <!-- End of cache  -->
+              <!-- Rendering express checkout default content -->
+ <!-- End of rendering express checkout default content -->
+            </div>
+          </div>
+        </div>
+         <!-- End of rendering page grid items -->
+      </div> <!-- End of row -->
+    </div> <!-- End of container-md-height -->
+  </div> <!-- End of container -->
+  <div class="container global-primary  ">
+    <div class="container-md-height" style="height: 100%; table-layout: fixed; width: 100%; margin-bottom: 2%; "> <!-- height and width must be difined for td to size correctly -->
+      <div class="row row-md-height" style="height: 100%;">
+        <!-- Rendering page grid items -->
+        <div id="page-item-5e4cf54444484f0036dd82cd"
+             class="item grid-text-item
+              col-xs-12
+              col-md-4
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+          <div style="height: 100%;">
+            <div class="box-info " style="">
+                <!-- Redner grid item partial -->
+                <!-- Redner grid item title -->
+                <!-- Redner grid item content -->
+                  <div class="description" ng-non-bindable><p style="font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; margin-top: 0pt; margin-bottom: 0pt; line-height: 1.2; font-size: 16px; background-color: rgb(255, 255, 255);"><a href="https://www.magic-pro.com/blog/posts/%E5%8B%95%E7%89%A9%E6%A3%AE%E5%8F%8B%E6%9C%83%E5%A5%BD%E6%8B%8D%E6%AA%94%EF%BC%81-promini-5dr" target="_blank"><span><img height="401" src="https://lh3.googleusercontent.com/ZH3eWBhX1cL7yDoKv-TnaNRaOUa0MuSbU1OgniTxQ8TW47WA3EloJNxolAajNbcJOB5vTSiiIoQ26dmsP_lL7ppjIyRgw6NtryQaHnTgJbnesRtcovYcEfgS61piU5NcNYNuUpad" style=" color: rgb(57, 62, 72);" width="602"></span></a></p>
+
+<p dir="ltr" style="font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; margin-top: 0pt; margin-bottom: 0pt; line-height: 1.2; font-size: 16px; background-color: rgb(255, 255, 255);"><span><a href="https://www.magic-pro.com/blog/posts/%E5%8B%95%E7%89%A9%E6%A3%AE%E5%8F%8B%E6%9C%83%E5%A5%BD%E6%8B%8D%E6%AA%94%EF%BC%81-promini-5dr" target="_blank"><strong>動物森友會好拍檔！ ProMini 5DR</strong></a><br>
+<br>
+<a href="https://www.magic-pro.com/blog/posts/%E5%8B%95%E7%89%A9%E6%A3%AE%E5%8F%8B%E6%9C%83%E5%A5%BD%E6%8B%8D%E6%AA%94%EF%BC%81-promini-5dr" target="_blank"><span style="font-size: 16px; font-family: Verdana; background-color: rgb(255, 255, 255);">最近，一款在 Switch 遊戲俘虜不少男男女女，日以繼夜地玩，玩到機不離手的大有人在，無錯就是《動物森友會》！不過，Switch 遊戲機有一個少問題，就是它的使用時間不夠長，大約可玩 4－5 小時，帶出街玩未必夠玩一日，有一顆輕便的外置電，就方便各位遊戲迷一邊玩一邊充電......</span></a></span></p></div>
+               <!-- End of cache  -->
+              <!-- Rendering express checkout default content -->
+ <!-- End of rendering express checkout default content -->
+            </div>
+          </div>
+        </div>
+                <div id="page-item-5e4cf54444484f0036dd82cf"
+             class="item grid-text-item
+              col-xs-12
+              col-md-4
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+          <div style="height: 100%;">
+            <div class="box-info " style="">
+                <!-- Redner grid item partial -->
+                <!-- Redner grid item title -->
+                <!-- Redner grid item content -->
+                  <div class="description" ng-non-bindable><p dir="ltr" style="font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; margin-top: 0pt; margin-bottom: 0pt; line-height: 1.2; font-size: 16px; background-color: rgb(255, 255, 255);"><a href="https://www.magic-pro.com/blog/posts/%E5%B8%83%E7%B9%94%E8%A3%9D%E9%A3%BE%E6%B7%BB%E6%99%82%E5%B0%9A%EF%BC%81%E8%B6%95%E8%B5%B0%E9%AB%98%E7%A7%91%E6%8A%80%E5%86%B0%E5%86%B7%E6%84%9F%EF%BC%81promini-10df" target="_blank"><span><img height="401" src="https://lh5.googleusercontent.com/OJ4-BRs238mtwqr72oJAc_NxGPsie83XljD_zkqK6AcxOU0mMmUbDyElHfZo7xs9EACn9NA61062f0Vzz_oGiZ3IjyZ88daGNVGkucxSmq8tZihcB_gEafm4RLa7bgzToSMXq0Ix" style="font-size: 16px; font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; max-width: 100%; height: auto;" width="602"></span></a></p>
+
+<p dir="ltr" style="font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; margin-top: 0pt; margin-bottom: 0pt; line-height: 1.2; font-size: 16px; background-color: rgb(255, 255, 255);"><span><strong><a href="https://www.magic-pro.com/blog/posts/%E5%B8%83%E7%B9%94%E8%A3%9D%E9%A3%BE%E6%B7%BB%E6%99%82%E5%B0%9A%EF%BC%81%E8%B6%95%E8%B5%B0%E9%AB%98%E7%A7%91%E6%8A%80%E5%86%B0%E5%86%B7%E6%84%9F%EF%BC%81promini-10df" target="_blank">布織裝飾添時尚！趕走高科技冰冷感！ProMini 10DF</a></strong></span></p>
+
+<p dir="ltr" style="font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; margin-top: 0pt; margin-bottom: 0pt; line-height: 1.2; font-size: 16px; background-color: rgb(255, 255, 255);">&nbsp;</p>
+
+<p dir="ltr" style="font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; margin-top: 0pt; margin-bottom: 0pt; line-height: 1.2; font-size: 16px; background-color: rgb(255, 255, 255);"><span><span style=" color: rgb(57, 62, 72); font-family: Verdana;"><a href="https://www.magic-pro.com/blog/posts/%E5%B8%83%E7%B9%94%E8%A3%9D%E9%A3%BE%E6%B7%BB%E6%99%82%E5%B0%9A%EF%BC%81%E8%B6%95%E8%B5%B0%E9%AB%98%E7%A7%91%E6%8A%80%E5%86%B0%E5%86%B7%E6%84%9F%EF%BC%81promini-10df" target="_blank"><span>電子產品如手機、電腦、周邊產品，多數用金屬、玻璃、塑膠作為機身外殼，這些物料比人感覺都帶有「冰冷」，很人工製造的感覺，而且用了這麼多年，實在是「對到悶」</span></a><a href="https://www.magic-pro.com/blog/posts/%E5%B8%83%E7%B9%94%E8%A3%9D%E9%A3%BE%E6%B7%BB%E6%99%82%E5%B0%9A%EF%BC%81%E8%B6%95%E8%B5%B0%E9%AB%98%E7%A7%91%E6%8A%80%E5%86%B0%E5%86%B7%E6%84%9F%EF%BC%81promini-10df" target="_blank"><span>......</span></a></span></span></p></div>
+               <!-- End of cache  -->
+              <!-- Rendering express checkout default content -->
+ <!-- End of rendering express checkout default content -->
+            </div>
+          </div>
+        </div>
+                <div id="page-item-5e4cf54444484f0036dd82ce"
+             class="item grid-text-item
+              col-xs-12
+              col-md-4
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+          <div style="height: 100%;">
+            <div class="box-info " style="">
+                <!-- Redner grid item partial -->
+                <!-- Redner grid item title -->
+                <!-- Redner grid item content -->
+                  <div class="description" ng-non-bindable><p dir="ltr" style="font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; margin-top: 0pt; margin-bottom: 0pt; line-height: 1.2; font-size: 16px; background-color: rgb(255, 255, 255);"><a href="https://www.magic-pro.com/blog/posts/%E9%99%AA%E4%BD%A0%E4%B8%8A%E5%B1%B1%E4%B8%8B%E6%B5%B7%E8%B5%B0%E5%A4%A9%E4%B8%8B%EF%BC%81promini-10p67-%E9%98%B2%E6%B0%B4%E9%98%B2%E5%A1%B5pd%E5%BF%AB%E5%85%85%E6%B5%81%E5%8B%95%E9%9B%BB%E6%B1%A0" target="_blank"><img height="401" src="https://lh4.googleusercontent.com/O1OBVsrWFLsP98ArILolt4r8MZkE7OvA7W84MZh3x4muZwanBdinAodLB_XzFXmGt-ijMKyxHRNdUvRYFBKw8r_gbofLwI-2dpebq762mUHYWlDEM1VjhCKVZZzq99GJIAc2QH5q" style="max-width: 100%; height: auto;" width="602"></a></p>
+
+<p dir="ltr" style="font-size: 16px; font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; margin-top: 0pt; margin-bottom: 0pt; line-height: 1.2;"><strong><span><span style=" color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);"><a href="https://www.magic-pro.com/blog/posts/%E9%99%AA%E4%BD%A0%E4%B8%8A%E5%B1%B1%E4%B8%8B%E6%B5%B7%E8%B5%B0%E5%A4%A9%E4%B8%8B%EF%BC%81promini-10p67-%E9%98%B2%E6%B0%B4%E9%98%B2%E5%A1%B5pd%E5%BF%AB%E5%85%85%E6%B5%81%E5%8B%95%E9%9B%BB%E6%B1%A0" target="_blank"><span>陪你上山下海走天下！</span></a><a href="https://www.magic-pro.com/blog/posts/%E9%99%AA%E4%BD%A0%E4%B8%8A%E5%B1%B1%E4%B8%8B%E6%B5%B7%E8%B5%B0%E5%A4%A9%E4%B8%8B%EF%BC%81promini-10p67-%E9%98%B2%E6%B0%B4%E9%98%B2%E5%A1%B5pd%E5%BF%AB%E5%85%85%E6%B5%81%E5%8B%95%E9%9B%BB%E6%B1%A0" target="_blank"><span>PROMINI 10P67 防水防塵PD快充流動電池</span></a></span></span></strong></p>
+
+<p dir="ltr" style="font-size: 16px; font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; margin-top: 0pt; margin-bottom: 0pt; line-height: 1.2;">&nbsp;</p>
+
+<p dir="ltr" style="font-size: 16px; font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; margin-top: 0pt; margin-bottom: 0pt; line-height: 1.2;"><span><span id="docs-internal-guid-c2f86e85-7fff-1a1b-1bc4-9f8b87f23c65"><span style="font-family: Verdana; font-size: 12pt; background-color: transparent; vertical-align: baseline;"><a href="https://www.magic-pro.com/blog/posts/%E9%99%AA%E4%BD%A0%E4%B8%8A%E5%B1%B1%E4%B8%8B%E6%B5%B7%E8%B5%B0%E5%A4%A9%E4%B8%8B%EF%BC%81promini-10p67-%E9%98%B2%E6%B0%B4%E9%98%B2%E5%A1%B5pd%E5%BF%AB%E5%85%85%E6%B5%81%E5%8B%95%E9%9B%BB%E6%B1%A0" target="_blank"><span>天氣開始愈來愈熱，不禁令人想起夏天各種和水有關的東西，例如去沙灘曬太陽、水上活動、潛水，還有暴雨。電子產品最怕就是水，主流品牌的手機多數備有一定防水能力，但具有防水能力的外置電就甚少聽聞</span></a></span></span></span><a href="https://www.magic-pro.com/blog/posts/%E9%99%AA%E4%BD%A0%E4%B8%8A%E5%B1%B1%E4%B8%8B%E6%B5%B7%E8%B5%B0%E5%A4%A9%E4%B8%8B%EF%BC%81promini-10p67-%E9%98%B2%E6%B0%B4%E9%98%B2%E5%A1%B5pd%E5%BF%AB%E5%85%85%E6%B5%81%E5%8B%95%E9%9B%BB%E6%B1%A0" style="font-family: Verdana; font-size: 16px;" target="_blank">......</a></p>
+
+<p dir="ltr" style="font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; margin-top: 0pt; margin-bottom: 0pt; line-height: 1.2; font-size: 16px; background-color: rgb(255, 255, 255);">&nbsp;</p>
+
+<p dir="ltr" style="margin-top: 0pt; margin-bottom: 0pt; font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; line-height: 1.2; font-size: 16px; background-color: rgb(255, 255, 255);">&nbsp;</p></div>
+               <!-- End of cache  -->
+              <!-- Rendering express checkout default content -->
+ <!-- End of rendering express checkout default content -->
+            </div>
+          </div>
+        </div>
+         <!-- End of rendering page grid items -->
+      </div> <!-- End of row -->
+    </div> <!-- End of container-md-height -->
+  </div> <!-- End of container -->
+  <div class="container global-primary  ">
+    <div class="container-md-height" style="height: 100%; table-layout: fixed; width: 100%; margin-bottom: 2%; "> <!-- height and width must be difined for td to size correctly -->
+      <div class="row row-md-height" style="height: 100%;">
+        <!-- Rendering page grid items -->
+        <div id="page-item-5e69d2ddcb9bb00018fa13ae"
+             class="item grid-text-item
+              col-xs-12
+              col-md-12
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+          <div style="height: 100%;">
+            <div class="box-info " style="">
+                <!-- Redner grid item partial -->
+                <!-- Redner grid item title -->
+                <!-- Redner grid item content -->
+                  <div class="description" ng-non-bindable><div class="info" style="font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);">
+<div class="info-wrap">
+<div class="meta"><a href="https://www.magic-pro.com/blog/posts/%E8%BC%B8%E5%87%BA%E5%A4%A0power-magic-pro-promini-%E5%85%85%E9%9B%BB%E7%B3%BB%E5%88%97%E7%82%BA%E8%A3%9D%E7%BD%AE%E6%A5%B5%E9%80%9F%E5%85%85%E9%9B%BB" target="_blank"><span><img src="https://img.shoplineapp.com/media/image_clips/5e69d1900711845f2e205314/original.jpg?1583993231" style="max-width: 100%; height: auto;"></span></a></div>
+</div>
+</div>
+
+<div class="post_content" style="font-family: &quot;Open Sans&quot;, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);">
+<p style="line-height: 25px;"><a href="https://www.magic-pro.com/blog/posts/%E8%BC%B8%E5%87%BA%E5%A4%A0power-magic-pro-promini-%E5%85%85%E9%9B%BB%E7%B3%BB%E5%88%97%E7%82%BA%E8%A3%9D%E7%BD%AE%E6%A5%B5%E9%80%9F%E5%85%85%E9%9B%BB" target="_blank"><span>每天為不同的智能裝置或Notebook充電，相信已經成為大家的習慣，但同時又出現一個煩惱，就是不同裝置的接口或充電規格都不同，如果有多件裝置需同時充電，又要接上多隻充電器，十分佔用地方，此時您就需要一台大輸出而且支援多種充電規格的充電器。今次介紹的Magic-Pro ProMini 充電系列，正正可以解決以上煩惱，ProMini充電系列分別有桌面充電器及移動電源，輸出夠高之餘亦支援多種快速充電技術，可以跟據自己需求選擇。</span></a></p>
+</div></div>
+               <!-- End of cache  -->
+              <!-- Rendering express checkout default content -->
+ <!-- End of rendering express checkout default content -->
+            </div>
+          </div>
+        </div>
+         <!-- End of rendering page grid items -->
+      </div> <!-- End of row -->
+    </div> <!-- End of container-md-height -->
+  </div> <!-- End of container -->
+  <div class="container global-primary  ">
+    <div class="container-md-height" style="height: 100%; table-layout: fixed; width: 100%; margin-bottom: 2%; "> <!-- height and width must be difined for td to size correctly -->
+      <div class="row row-md-height" style="height: 100%;">
+        <!-- Rendering page grid items -->
+        <div id="page-item-5df895183161b431f099b652"
+             class="item grid-image-item
+              col-xs-12
+              col-md-12
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+          <div style="height: 100%;">
+            <div class="box-info " style="">
+                <!-- Redner grid item partial -->
+                  
+  <div class="editor-boxify-image-wrapper boxify-image-wrapper image-container
+    margin-bottomless
+    "
+  >
+      <img
+        class="sl-lazy-image"
+        src="https://shoplineimg.com/5db90ee29db3cb0022a18ce0/5e9687ab747ce0003092eb10/400x.webp?source_format=jpg"
+        alt=""
+      >
+
+
+  </div>
+
+                <!-- Redner grid item title -->
+                <!-- Redner grid item content -->
+               <!-- End of cache  -->
+              <!-- Rendering express checkout default content -->
+ <!-- End of rendering express checkout default content -->
+            </div>
+          </div>
+        </div>
+         <!-- End of rendering page grid items -->
+      </div> <!-- End of row -->
+    </div> <!-- End of container-md-height -->
+  </div> <!-- End of container -->
+  </div>
+
+  </div><!--yield-wrapper-->
+  <!-- main Content end-->
+</div><!-- body-content-->
+  <!---footer -->
+  <div id="footer">
+      <div class="Footer-grids">
+          <div class="container global-primary  ">
+    <div class="container-md-height" style="height: 100%; table-layout: fixed; width: 100%;"> <!-- height and width must be difined for td to size correctly -->
+      <div class="row row-md-height" style="height: 100%;">
+        <div id="grid-item-5db949898c303c486ffe4c7b" 
+             class="item col-xs-12 
+              col-md-12
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+            <div style="height: 100%;">
+              <div class="box-info " style="">
+                    <div class="fb-page-container">
+    <div id="fb-storefront-iframe" class="fb-page" data-href="https://www.facebook.com/MagicProComputer" data-small-header="false" data-width="500" data-adapt-container-width="true" data-tabs="" data-hide-cover="false" data-show-facepile="true"></div>
+  </div>
+
+
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container global-primary  ">
+    <div class="container-md-height" style="height: 100%; table-layout: fixed; width: 100%;"> <!-- height and width must be difined for td to size correctly -->
+      <div class="row row-md-height" style="height: 100%;">
+        <div id="grid-item-5db949898c303c486ffe4c77" 
+             class="item col-xs-12 
+              col-md-6
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+            <div style="height: 100%;">
+              <div class="box-info " style="">
+
+
+                  <div class="description" ng-non-bindable><p><img src="https://shoplineimg.com/assets/footer/card_visa.png" style="display: inline-block; width: auto; max-height: 40px; margin-right: 5px;  color: rgb(0, 0, 0); font-size: 16px; background-color: rgb(255, 255, 255);"><img src="https://shoplineimg.com/assets/footer/card_master.png" style="display: inline-block; width: auto; max-height: 40px; margin-right: 5px;  color: rgb(0, 0, 0); font-size: 16px; background-color: rgb(255, 255, 255);"><img src="https://shoplineimg.com/assets/footer/card_amex.png" style="display: inline-block; width: auto; max-height: 40px; margin-right: 5px;  color: rgb(0, 0, 0); font-size: 16px;"><img src="https://shoplineimg.com/assets/footer/card_unionpay.png" style="display: inline-block; width: auto; max-height: 40px; margin-right: 5px;  color: rgb(0, 0, 0); font-size: 16px;"><img src="https://shoplineimg.com/assets/footer/card_apple_pay.png" style="display: inline-block; width: auto; max-height: 40px; margin-right: 5px;  color: rgb(0, 0, 0); font-size: 16px;"><img height="40" src="https://static.shoplineimg.co/assets/footer/card_google_pay.png" style="display: inline-block; width: auto; max-height: 40px; margin-right: 10px;  color: rgb(0, 0, 0); font-size: 16px;"></p></div>
+              </div>
+            </div>
+        </div>
+        <div id="grid-item-5ddba3c8d37760003c1c5841" 
+             class="item col-xs-12 
+              col-md-6
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+            <div style="height: 100%;">
+              <div class="box-info " style="">
+
+
+                  <div class="description" ng-non-bindable><p style=" color: rgb(0, 0, 0); font-size: 16px; background-color: rgb(255, 255, 255);">Follow Us:</p>
+
+<p style=" color: rgb(0, 0, 0); font-size: 16px; background-color: rgb(255, 255, 255);"><a href="https://www.facebook.com/MagicProComputer" target="_blank"><img src="https://static.shoplineimg.co/assets/footer/social_facebook.png" style="height: 44px; width: auto; display: inline-block;"></a><a href="https://twitter.com/MagicPro_HK" target="_blank"><img src="https://static.shoplineimg.co/assets/footer/social_twitter.png" style="height: 44px; width: auto; display: inline-block;"></a><a href="https://www.instagram.com/magicprocomputer/" target="_blank"><img src="https://static.shoplineimg.co/assets/footer/social_instagram.png" style="height: 44px; width: auto; display: inline-block;"></a><a href="https://www.weibo.com/magicprohk" target="_blank"><img src="https://static.shoplineimg.co/assets/footer/social_sina_weiboo.png" style="height: 44px; width: auto; display: inline-block;"></a></p></div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container global-primary  ">
+    <div class="container-md-height" style="height: 100%; table-layout: fixed; width: 100%;"> <!-- height and width must be difined for td to size correctly -->
+      <div class="row row-md-height" style="height: 100%;">
+        <div id="grid-item-5db949898c303c486ffe4c79" 
+             class="item col-xs-12 
+              col-md-12
+              col-md-height
+              "
+             style="vertical-align: top; height: 100%;">
+            <div style="height: 100%;">
+              <div class="box-info " style="">
+
+
+                  <div class="description" ng-non-bindable><p style="text-align: center;"><a href="/pages/privacy-policy" style="font-size: 16px; text-align: center;" target="_blank">Privacy Policy</a><span style=" color: rgb(0, 0, 0); font-size: 16px; text-align: center; background-color: rgb(255, 255, 255);"> | </span><a href="/about/terms" style="font-size: 16px; text-align: center;" target="_blank">Terms &amp; Conditions</a><span style=" color: rgb(0, 0, 0); font-size: 16px; text-align: center; background-color: rgb(255, 255, 255);"> | </span><span style=" color: rgb(0, 0, 0); font-size: 16px; text-align: center; background-color: rgb(255, 255, 255);">​</span><span style="color:#555555;">Magic-Pro Computer (Asia) Co., Ltd. © 2019. </span></p></div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      </div>
+
+      <div id="poweredby-shopline">
+          Powered by <a target="_blank" href=https://shoplineapp.com/about/payments_shopper_terms>SHOPLINE Payments</a>
+      </div>
+  </div>
+  <!---footer end-->
+
+
+  </div>
+
+          <!-- Google Remarketing Event Tracker -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-654222124"></script>
+        <script type="text/javascript">
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+          gtag('config', 'AW-654222124');
+
+
+            // detect event tag
+
+            // set tracking data
+
+
+              gtag('event', 'home', {"ecomm_pagetype":"home"});
+        </script>
+      <!-- end Google Remarketing Event Tracker -->
+        <!-- Facebook Pixel (new) Event Tracker -->
+        <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '661361037763098', {
+        }, {agent: 'plShopline'});
+
+        fbq('track', 'PageView',{
+        }, {
+            agent: 'plShopline'
+        });
+        </script>
+
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=661361037763098&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- end Facebook Pixel (new) Event Tracker -->
+        <!-- Google Analytics Event Tracker-->
+        <!-- End Google Analytics Event Tracker -->
+
+
+
+
+      
+
+
+
+
+  <script type="text/javascript">
+  </script>
+  <script src="https://cdn.shoplineapp.com/assets/facebook_browser-3e937ce481c39fe6b1e7139fe97cb6a18035e14304148f8c79203037031f8900.js" async></script>
+  
+</body>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="fa-v5-globe" viewBox="0 0 496 512">
+    <path d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"/>
+  </symbol>
+</svg>
+</html>
